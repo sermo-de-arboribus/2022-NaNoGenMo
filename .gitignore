@@ -21,4 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# other generated stuff
 /target/
+/src/main/java/META-INF/
+
+
+# prevent copyrighted material from being included in the repo
+/src/main/resources/copyrighted*.xml

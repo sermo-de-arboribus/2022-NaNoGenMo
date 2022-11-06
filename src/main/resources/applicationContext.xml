@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:oxm="http://www.springframework.org/schema/oxm"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="novelGenerator" class="de.sda.novel.NovelGenerator">
-		<property name="genresToBeExcluded">
+		<constructor-arg ref="targetLocale"/>
+		<constructor-arg ref="quotesService"/>
+		<constructor-arg name="quoteFiles">
 			<array value-type="java.lang.String">
+				<value>copyrighted-quotes.xml</value>
+				<value>public-domain-quotes.xml</value>
+			</array>
+		</constructor-arg>
+		<property name="genresToBeExcluded">
+			<list value-type="java.lang.String">
 	            <value>poetry</value>
-	        </array>
+	        </list>
         </property>
-		<property name="languageToBeUsed" value="de"/>
-	</bean>        
+	</bean>
+	
+	<bean id="quotesService" class="de.sda.literature.source.QuotesService">
+		<property name="unmarshaller" ref="jaxb2Marshaller"/>
+	</bean>
+	
+	<bean id="targetLocale" class="java.util.Locale">
+		<constructor-arg name="language" value="de" />
+	</bean>
+	
+	<bean id="jaxb2Marshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		<property name="classesToBeBound">
+			<list>
+				<value>de.sda.quotes.model.Quotes</value>
+				<value>de.sda.quotes.model.Quote</value>
+				<value>de.sda.quotes.model.Source</value>
+				<value>de.sda.quotes.model.Text</value>
+				<value>de.sda.quotes.model.Version</value>
+			</list>
+		</property>
+	</bean>
 </beans>

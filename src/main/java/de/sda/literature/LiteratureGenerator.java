@@ -1,6 +1,6 @@
 package de.sda.literature;
 
-public interface LiteraturGenerator {
+public interface LiteratureGenerator {
 
 	void generateWork();
 }

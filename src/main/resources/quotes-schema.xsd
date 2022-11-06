@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+  jaxb:version="2.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified">
+  <xs:element name="quotes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="quote"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="quote">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="version"/>
+        <xs:element ref="author" maxOccurs="5"/>
+      </xs:sequence>
+      <xs:attribute name="genre" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="diary" />
+            <xs:enumeration value="drama" />
+            <xs:enumeration value="information-technology" />
+            <xs:enumeration value="culture-studies" />
+            <xs:enumeration value="letters" />
+            <xs:enumeration value="linguistics"/>
+            <xs:enumeration value="philosophy" />
+            <xs:enumeration value="poetry" />
+            <xs:enumeration value="politics-and-society" />
+            <xs:enumeration value="psychology" />
+            <xs:enumeration value="science" />
+            <xs:enumeration value="fiction" />
+            <xs:enumeration value="travelogue" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="version">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="text"/>
+        <xs:element ref="source"/>
+      </xs:sequence>
+      <xs:attribute name="status" use="required">
+        <xs:simpleType>
+          <xs:list>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="original" />
+                <xs:enumeration value="translation" />
+                <xs:enumeration value="unpublished" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:list>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="lang" use="required">
+        <xs:simpleType>
+          <xs:annotation>
+            <xs:appinfo>
+              <jaxb:javaType name="java.util.Locale"
+                parseMethod="de.sda.quotes.model.LocaleParser.parseXmlLangAttribute" 
+                printMethod="de.sda.quotes.model.LocaleParser.printXmlLangAttribute"/>
+            </xs:appinfo>
+          </xs:annotation>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="\w{2,3}(-\w{2,3})?" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="public-domain" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="3000"/>
+            <xs:minInclusive value="1867"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="em" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="source">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="idref" minOccurs="0"/>
+        <xs:element ref="page" minOccurs="0"/>
+        <xs:element ref="translator" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idref" type="xs:integer"/>
+  <xs:element name="page">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="([-0-9/]+)|(check)|([IVXLMC]+)"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="author" type="xs:string"/>
+  <xs:element name="translator" type="xs:string"/>
+</xs:schema>
