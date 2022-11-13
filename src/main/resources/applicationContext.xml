@@ -5,6 +5,10 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+	<bean id="lexicalResourceService" class="de.sda.literature.source.LexicalResourceService">
+		<property name="unmarshaller" ref="jaxb2Marshaller"/>
+	</bean>
+	
 	<bean id="linguisticAnalyzer" class="de.sda.nlp.analyze.LinguisticAnalyzer"></bean>
 	
 	<bean id="novelGenerator" class="de.sda.novel.NovelGenerator">
@@ -16,7 +20,8 @@
 				<value>public-domain-quotes.xml</value>
 			</array>
 		</constructor-arg>
-		<constructor-arg ref="linguisticAnalyzer"/>		
+		<constructor-arg ref="linguisticAnalyzer"/>
+		<constructor-arg ref="lexicalResourceService"/>		
 		<property name="genresToBeExcluded">
 			<list value-type="java.lang.String">
 	            <value>poetry</value>

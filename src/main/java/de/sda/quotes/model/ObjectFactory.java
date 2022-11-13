@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 generiert 
 // Siehe <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2022.11.06 um 05:37:28 PM CET 
+// Generiert: 2022.11.13 um 05:55:46 PM CET 
 //
 
 
@@ -47,6 +47,62 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link LexicalResource }
+     * 
+     */
+    public LexicalResource createLexicalResource() {
+        return new LexicalResource();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon }
+     * 
+     */
+    public LexicalResource.Lexicon createLexicalResourceLexicon() {
+        return new LexicalResource.Lexicon();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.Synset }
+     * 
+     */
+    public LexicalResource.Lexicon.Synset createLexicalResourceLexiconSynset() {
+        return new LexicalResource.Lexicon.Synset();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry createLexicalResourceLexiconLexicalEntry() {
+        return new LexicalResource.Lexicon.LexicalEntry();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Sense }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Sense createLexicalResourceLexiconLexicalEntrySense() {
+        return new LexicalResource.Lexicon.LexicalEntry.Sense();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Form }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Form createLexicalResourceLexiconLexicalEntryForm() {
+        return new LexicalResource.Lexicon.LexicalEntry.Form();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Lemma }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Lemma createLexicalResourceLexiconLexicalEntryLemma() {
+        return new LexicalResource.Lexicon.LexicalEntry.Lemma();
+    }
+
+    /**
      * Create an instance of {@link Quotes }
      * 
      */
@@ -84,6 +140,102 @@ public class ObjectFactory {
      */
     public Source createSource() {
         return new Source();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.SyntacticBehaviour }
+     * 
+     */
+    public LexicalResource.Lexicon.SyntacticBehaviour createLexicalResourceLexiconSyntacticBehaviour() {
+        return new LexicalResource.Lexicon.SyntacticBehaviour();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.Synset.Definition }
+     * 
+     */
+    public LexicalResource.Lexicon.Synset.Definition createLexicalResourceLexiconSynsetDefinition() {
+        return new LexicalResource.Lexicon.Synset.Definition();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.Synset.SynsetRelation }
+     * 
+     */
+    public LexicalResource.Lexicon.Synset.SynsetRelation createLexicalResourceLexiconSynsetSynsetRelation() {
+        return new LexicalResource.Lexicon.Synset.SynsetRelation();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.Synset.Example }
+     * 
+     */
+    public LexicalResource.Lexicon.Synset.Example createLexicalResourceLexiconSynsetExample() {
+        return new LexicalResource.Lexicon.Synset.Example();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.SyntacticBehaviour }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.SyntacticBehaviour createLexicalResourceLexiconLexicalEntrySyntacticBehaviour() {
+        return new LexicalResource.Lexicon.LexicalEntry.SyntacticBehaviour();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Sense.SenseRelation }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Sense.SenseRelation createLexicalResourceLexiconLexicalEntrySenseSenseRelation() {
+        return new LexicalResource.Lexicon.LexicalEntry.Sense.SenseRelation();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Sense.Example }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Sense.Example createLexicalResourceLexiconLexicalEntrySenseExample() {
+        return new LexicalResource.Lexicon.LexicalEntry.Sense.Example();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Sense.Count }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Sense.Count createLexicalResourceLexiconLexicalEntrySenseCount() {
+        return new LexicalResource.Lexicon.LexicalEntry.Sense.Count();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Form.Pronunciation }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Form.Pronunciation createLexicalResourceLexiconLexicalEntryFormPronunciation() {
+        return new LexicalResource.Lexicon.LexicalEntry.Form.Pronunciation();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Form.Tag }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Form.Tag createLexicalResourceLexiconLexicalEntryFormTag() {
+        return new LexicalResource.Lexicon.LexicalEntry.Form.Tag();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Lemma.Pronunciation }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Lemma.Pronunciation createLexicalResourceLexiconLexicalEntryLemmaPronunciation() {
+        return new LexicalResource.Lexicon.LexicalEntry.Lemma.Pronunciation();
+    }
+
+    /**
+     * Create an instance of {@link LexicalResource.Lexicon.LexicalEntry.Lemma.Tag }
+     * 
+     */
+    public LexicalResource.Lexicon.LexicalEntry.Lemma.Tag createLexicalResourceLexiconLexicalEntryLemmaTag() {
+        return new LexicalResource.Lexicon.LexicalEntry.Lemma.Tag();
     }
 
     /**
