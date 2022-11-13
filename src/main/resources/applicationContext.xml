@@ -5,6 +5,8 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
+	<bean id="linguisticAnalyzer" class="de.sda.nlp.analyze.LinguisticAnalyzer"></bean>
+	
 	<bean id="novelGenerator" class="de.sda.novel.NovelGenerator">
 		<constructor-arg ref="targetLocale"/>
 		<constructor-arg ref="quotesService"/>
@@ -14,6 +16,7 @@
 				<value>public-domain-quotes.xml</value>
 			</array>
 		</constructor-arg>
+		<constructor-arg ref="linguisticAnalyzer"/>		
 		<property name="genresToBeExcluded">
 			<list value-type="java.lang.String">
 	            <value>poetry</value>

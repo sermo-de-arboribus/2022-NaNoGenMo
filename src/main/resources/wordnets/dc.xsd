@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://globalwordnet.github.io/schemas/dc/" xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
+  <xs:import schemaLocation="wordnets-schema.xsd"/>
+  <xs:attribute name="contributor"/>
+  <xs:attribute name="coverage"/>
+  <xs:attribute name="creator"/>
+  <xs:attribute name="date"/>
+  <xs:attribute name="description"/>
+  <xs:attribute name="format"/>
+  <xs:attribute name="identifier"/>
+  <xs:attribute name="publisher"/>
+  <xs:attribute name="relation"/>
+  <xs:attribute name="rights"/>
+  <xs:attribute name="source"/>
+  <xs:attribute name="subject"/>
+  <xs:attribute name="title"/>
+  <xs:attribute name="type"/>
+</xs:schema>

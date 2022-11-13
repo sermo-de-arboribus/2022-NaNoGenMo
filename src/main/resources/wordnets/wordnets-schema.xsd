@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
+  <xs:import namespace="https://globalwordnet.github.io/schemas/dc/" schemaLocation="dc.xsd"/>
+  <xs:element name="LexicalResource">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Lexicon">
+          <xs:complexType>
+            <xs:sequence>
+              <!--<xs:element minOccurs="0" maxOccurs="unbounded" ref="Requires"/>-->
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="LexicalEntry">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Lemma">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Pronunciation">
+                            <xs:complexType mixed="true">
+                              <xs:attributeGroup ref="attlist.Pronunciation"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Tag">
+                            <xs:complexType mixed="true">
+                              <xs:attributeGroup ref="attlist.Tag"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="attlist.Lemma"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Form">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Pronunciation">
+                            <xs:complexType mixed="true">
+                              <xs:attributeGroup ref="attlist.Pronunciation"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Tag">
+                            <xs:complexType mixed="true">
+                              <xs:attributeGroup ref="attlist.Tag"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="attlist.Form"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Sense">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="SenseRelation">
+                            <xs:complexType>
+                              <xs:attributeGroup ref="attlist.SenseRelation"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Example">
+                            <xs:complexType mixed="true">
+                              <xs:attributeGroup ref="attlist.Example"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded"  name="Count">
+                            <xs:complexType mixed="true">
+                              <xs:attributeGroup ref="attlist.Count"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="attlist.Sense"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SyntacticBehaviour">
+                      <xs:complexType>
+                        <xs:attributeGroup ref="attlist.SyntacticBehaviour"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attributeGroup ref="attlist.LexicalEntry"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Synset">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Definition">
+                      <xs:complexType mixed="true">
+                        <xs:attributeGroup ref="attlist.Definition"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <!-- <xs:element minOccurs="0" ref="ILIDefinition"/>-->
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SynsetRelation">
+                      <xs:complexType>
+                        <xs:attributeGroup ref="attlist.SynsetRelation"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Example">
+                      <xs:complexType mixed="true">
+                        <xs:attributeGroup ref="attlist.Example"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attributeGroup ref="attlist.Synset"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="SyntacticBehaviour">
+                <xs:complexType>
+                  <xs:attributeGroup ref="attlist.SyntacticBehaviour"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attributeGroup ref="attlist.Lexicon"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:attributeGroup name="attlist.Lexicon">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="label" use="required"/>
+    <xs:attribute name="language" use="required"/>
+    <xs:attribute name="email" use="required"/>
+    <xs:attribute name="license" use="required"/>
+    <xs:attribute name="version" use="required"/>
+    <xs:attribute name="url"/>
+    <xs:attribute name="citation"/>
+    <xs:attribute name="logo"/>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore" default="1.0"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.LexicalEntry">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>
+  
+  <xs:attributeGroup name="attlist.Lemma">
+    <xs:attribute name="writtenForm" use="required"/>
+    <xs:attribute name="script"/>
+    <xs:attribute name="partOfSpeech" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="n"/>
+          <xs:enumeration value="v"/>
+          <xs:enumeration value="a"/>
+          <xs:enumeration value="r"/>
+          <xs:enumeration value="s"/>
+          <xs:enumeration value="t"/>
+          <xs:enumeration value="c"/>
+          <xs:enumeration value="p"/>
+          <xs:enumeration value="x"/>
+          <xs:enumeration value="u"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  
+  <xs:attributeGroup name="attlist.Form">
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:attribute name="writtenForm" use="required"/>
+    <xs:attribute name="script"/>
+  </xs:attributeGroup>
+  
+  <xs:attributeGroup name="attlist.Pronunciation">
+    <xs:attribute name="variety"/>
+    <xs:attribute name="notation"/>
+    <xs:attribute name="phonemic" default="true">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="true"/>
+          <xs:enumeration value="false"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="audio"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.Tag">
+    <xs:attribute name="category" use="required"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.Sense">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="synset" use="required" type="xs:IDREF"/>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+    <xs:attribute name="lexicalized" default="true">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="true"/>
+          <xs:enumeration value="false"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="adjposition">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="a"/>
+          <xs:enumeration value="ip"/>
+          <xs:enumeration value="p"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="subcat" type="xs:IDREFS"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.Synset">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="ili" use="required"/>
+    <xs:attribute name="partOfSpeech">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="n"/>
+          <xs:enumeration value="v"/>
+          <xs:enumeration value="a"/>
+          <xs:enumeration value="r"/>
+          <xs:enumeration value="s"/>
+          <xs:enumeration value="t"/>
+          <xs:enumeration value="c"/>
+          <xs:enumeration value="p"/>
+          <xs:enumeration value="x"/>
+          <xs:enumeration value="u"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+    <xs:attribute name="lexicalized" default="true">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="true"/>
+          <xs:enumeration value="false"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="members" type="xs:IDREFS"/>
+    <xs:attribute name="lexfile"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.Definition">
+    <xs:attribute name="language"/>
+    <xs:attribute name="sourceSense" type="xs:IDREF"/>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>
+  <!--
+  <xs:element name="ILIDefinition">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.ILIDefinition"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.ILIDefinition">
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>-->
+
+  <xs:attributeGroup name="attlist.Example">
+    <xs:attribute name="language"/>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.SynsetRelation">
+    <xs:attribute name="target" use="required" type="xs:IDREF"/>
+    <xs:attribute name="relType" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="agent"/>
+          <xs:enumeration value="also"/>
+          <xs:enumeration value="attribute"/>
+          <xs:enumeration value="be_in_state"/>
+          <xs:enumeration value="causes"/>
+          <xs:enumeration value="classified_by"/>
+          <xs:enumeration value="classifies"/>
+          <xs:enumeration value="co_agent_instrument"/>
+          <xs:enumeration value="co_agent_patient"/>
+          <xs:enumeration value="co_agent_result"/>
+          <xs:enumeration value="co_instrument_agent"/>
+          <xs:enumeration value="co_instrument_patient"/>
+          <xs:enumeration value="co_instrument_result"/>
+          <xs:enumeration value="co_patient_agent"/>
+          <xs:enumeration value="co_patient_instrument"/>
+          <xs:enumeration value="co_result_agent"/>
+          <xs:enumeration value="co_result_instrument"/>
+          <xs:enumeration value="co_role"/>
+          <xs:enumeration value="direction"/>
+          <xs:enumeration value="domain_region"/>
+          <xs:enumeration value="domain_topic"/>
+          <xs:enumeration value="exemplifies"/>
+          <xs:enumeration value="entails"/>
+          <xs:enumeration value="eq_synonym"/>
+          <xs:enumeration value="has_domain_region"/>
+          <xs:enumeration value="has_domain_topic"/>
+          <xs:enumeration value="is_exemplified_by"/>
+          <xs:enumeration value="holo_location"/>
+          <xs:enumeration value="holo_member"/>
+          <xs:enumeration value="holo_part"/>
+          <xs:enumeration value="holo_portion"/>
+          <xs:enumeration value="holo_substance"/>
+          <xs:enumeration value="holonym"/>
+          <xs:enumeration value="hypernym"/>
+          <xs:enumeration value="hyponym"/>
+          <xs:enumeration value="in_manner"/>
+          <xs:enumeration value="instance_hypernym"/>
+          <xs:enumeration value="instance_hyponym"/>
+          <xs:enumeration value="instrument"/>
+          <xs:enumeration value="involved"/>
+          <xs:enumeration value="involved_agent"/>
+          <xs:enumeration value="involved_direction"/>
+          <xs:enumeration value="involved_instrument"/>
+          <xs:enumeration value="involved_location"/>
+          <xs:enumeration value="involved_patient"/>
+          <xs:enumeration value="involved_result"/>
+          <xs:enumeration value="involved_source_direction"/>
+          <xs:enumeration value="involved_target_direction"/>
+          <xs:enumeration value="is_caused_by"/>
+          <xs:enumeration value="is_entailed_by"/>
+          <xs:enumeration value="location"/>
+          <xs:enumeration value="manner_of"/>
+          <xs:enumeration value="mero_location"/>
+          <xs:enumeration value="mero_member"/>
+          <xs:enumeration value="mero_part"/>
+          <xs:enumeration value="mero_portion"/>
+          <xs:enumeration value="mero_substance"/>
+          <xs:enumeration value="meronym"/>
+          <xs:enumeration value="similar"/>
+          <xs:enumeration value="other"/>
+          <xs:enumeration value="patient"/>
+          <xs:enumeration value="restricted_by"/>
+          <xs:enumeration value="restricts"/>
+          <xs:enumeration value="result"/>
+          <xs:enumeration value="role"/>
+          <xs:enumeration value="source_direction"/>
+          <xs:enumeration value="state_of"/>
+          <xs:enumeration value="target_direction"/>
+          <xs:enumeration value="subevent"/>
+          <xs:enumeration value="is_subevent_of"/>
+          <xs:enumeration value="antonym"/>
+          <xs:enumeration value="feminine"/>
+          <xs:enumeration value="has_feminine"/>
+          <xs:enumeration value="masculine"/>
+          <xs:enumeration value="has_masculine"/>
+          <xs:enumeration value="young"/>
+          <xs:enumeration value="has_young"/>
+          <xs:enumeration value="diminutive"/>
+          <xs:enumeration value="has_diminutive"/>
+          <xs:enumeration value="augmentative"/>
+          <xs:enumeration value="has_augmentative"/>
+          <xs:enumeration value="anto_gradable"/>
+          <xs:enumeration value="anto_simple"/>
+          <xs:enumeration value="anto_converse"/>
+          <xs:enumeration value="ir_synonym"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.SenseRelation">
+    <xs:attribute name="target" use="required" type="xs:IDREF"/>
+    <xs:attribute name="relType" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="antonym"/>
+          <xs:enumeration value="also"/>
+          <xs:enumeration value="participle"/>
+          <xs:enumeration value="pertainym"/>
+          <xs:enumeration value="derivation"/>
+          <xs:enumeration value="domain_topic"/>
+          <xs:enumeration value="has_domain_topic"/>
+          <xs:enumeration value="domain_region"/>
+          <xs:enumeration value="has_domain_region"/>
+          <xs:enumeration value="exemplifies"/>
+          <xs:enumeration value="is_exemplified_by"/>
+          <xs:enumeration value="similar"/>
+          <xs:enumeration value="other"/>
+          <xs:enumeration value="simple_aspect_ip"/>
+          <xs:enumeration value="secondary_aspect_ip"/>
+          <xs:enumeration value="simple_aspect_pi"/>
+          <xs:enumeration value="secondary_aspect_pi"/>
+          <xs:enumeration value="feminine"/>
+          <xs:enumeration value="has_feminine"/>
+          <xs:enumeration value="masculine"/>
+          <xs:enumeration value="has_masculine"/>
+          <xs:enumeration value="young"/>
+          <xs:enumeration value="has_young"/>
+          <xs:enumeration value="diminutive"/>
+          <xs:enumeration value="has_diminutive"/>
+          <xs:enumeration value="augmentative"/>
+          <xs:enumeration value="has_augmentative"/>
+          <xs:enumeration value="anto_gradable"/>
+          <xs:enumeration value="anto_simple"/>
+          <xs:enumeration value="anto_converse"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.SyntacticBehaviour">
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:attribute name="subcategorizationFrame" use="required"/>
+    <xs:attribute name="senses" type="xs:IDREFS"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.Count">
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="attlist.LexiconExtension">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="label" use="required"/>
+    <xs:attribute name="language" use="required"/>
+    <xs:attribute name="email" use="required"/>
+    <xs:attribute name="license" use="required"/>
+    <xs:attribute name="version" use="required"/>
+    <xs:attribute name="url"/>
+    <xs:attribute name="citation"/>
+    <xs:attribute ref="dc:contributor"/>
+    <xs:attribute ref="dc:coverage"/>
+    <xs:attribute ref="dc:creator"/>
+    <xs:attribute ref="dc:date"/>
+    <xs:attribute ref="dc:description"/>
+    <xs:attribute ref="dc:format"/>
+    <xs:attribute ref="dc:identifier"/>
+    <xs:attribute ref="dc:publisher"/>
+    <xs:attribute ref="dc:relation"/>
+    <xs:attribute ref="dc:rights"/>
+    <xs:attribute ref="dc:source"/>
+    <xs:attribute ref="dc:subject"/>
+    <xs:attribute ref="dc:title"/>
+    <xs:attribute ref="dc:type"/>
+    <xs:attribute name="status"/>
+    <xs:attribute name="note"/>
+    <xs:attribute name="confidenceScore" default="1.0"/>
+  </xs:attributeGroup>
+  <!--<xs:element name="Requires">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.Requires"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.Requires">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="version" use="required"/>
+    <xs:attribute name="url"/>
+  </xs:attributeGroup>
+  <xs:element name="Extends">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.Extends"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.Extends">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="version" use="required"/>
+    <xs:attribute name="url"/>
+  </xs:attributeGroup>-->
+  <!--
+  <xs:element name="ExternalLexicalEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="ExternalLemma"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="Form"/>
+          <xs:element ref="ExternalForm"/>
+        </xs:choice>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="Sense"/>
+          <xs:element ref="ExternalSense"/>
+        </xs:choice>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="SyntacticBehaviour"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.ExternalLexicalEntry"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.ExternalLexicalEntry">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+  </xs:attributeGroup>
+  <xs:element name="ExternalLemma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Pronunciation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Tag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExternalForm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Pronunciation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Tag"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.ExternalForm"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.ExternalForm">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+  </xs:attributeGroup>
+  <xs:element name="ExternalSense">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="SenseRelation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Example"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Count"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.ExternalSense"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.ExternalSense">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+  </xs:attributeGroup>
+  <xs:element name="ExternalSynset">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Definition"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="SynsetRelation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Example"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.ExternalSynset"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.ExternalSynset">
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+  </xs:attributeGroup>-->
+</xs:schema>
