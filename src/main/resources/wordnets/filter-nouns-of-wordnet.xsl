@@ -12,7 +12,7 @@
     
     <xsl:template match="node()">
         <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
+            <xsl:apply-templates select="@*|*"/>
         </xsl:copy>
     </xsl:template>
     
@@ -20,6 +20,8 @@
         <xsl:copy/>
     </xsl:template>
     
+    <xsl:template match="ILIDefinition" />
     <xsl:template match="LexicalEntry[not(Lemma[@partOfSpeech eq 'n'])]"/>
     <xsl:template match="Synset[not(@partOfSpeech eq 'n')]"/>
+    <xsl:template match="SyntacticBehaviour" />
 </xsl:stylesheet>

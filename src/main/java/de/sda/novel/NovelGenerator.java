@@ -4,8 +4,8 @@ import de.sda.literature.LiteratureGenerator;
 import de.sda.literature.source.LexicalResourceService;
 import de.sda.literature.source.QuotesService;
 import de.sda.nlp.analyze.LinguisticAnalyzer;
+import de.sda.nlp.analyze.Wordnet;
 import de.sda.quotes.NlpAnnotatedQuote;
-import de.sda.quotes.model.LexicalResource;
 import de.sda.quotes.model.Quote;
 import de.sda.quotes.model.Quotes;
 
@@ -24,15 +24,18 @@ public class NovelGenerator implements LiteratureGenerator {
 	private LexicalResourceService lexicalResourceService;
 	private List<String> genresToBeExcluded = new ArrayList<String>();
 	private String[] quoteFiles;
+	private NameReplacementService nameService;
 	private QuotesService quotesService;
 	
 	public NovelGenerator (final QuotesService quotesService, final String[] quoteFiles, final Locale languageToBeUsed, 
-			final LinguisticAnalyzer analyzer, final LexicalResourceService lexicalResourceService) {
+			final LinguisticAnalyzer analyzer, final LexicalResourceService lexicalResourceService, final NameReplacementService
+			nameService) {
 		this.analyzer = analyzer;
 		this.languageToBeUsed = languageToBeUsed;
 		this.lexicalResourceService = lexicalResourceService;
 		this.quoteFiles = quoteFiles;
 		this.quotesService = quotesService;
+		this.nameService = nameService;
 	}
 	
 	@Override
@@ -46,7 +49,7 @@ public class NovelGenerator implements LiteratureGenerator {
 		filterQuotesByGenre(quotes);
 		filterQuotesByLanguage(quotes);
 		
-		LexicalResource lexicon = lexicalResourceService.loadLexicon("wordnets/" + languageToBeUsed.getLanguage() + ".xml");
+		Wordnet wordnet = lexicalResourceService.loadLexicon("wordnets/" + languageToBeUsed.getLanguage() + ".xml");
 		
 		List<NlpAnnotatedQuote> annotatedQuotes = quotes.getQuotes()
 			.stream()
@@ -59,7 +62,7 @@ public class NovelGenerator implements LiteratureGenerator {
 			
 			int index = random.nextInt(annotatedQuotes.size());
 			NlpAnnotatedQuote aq = annotatedQuotes.get(index);
-			System.out.println(aq.getEffectiveText());
+			System.out.println(aq.getEffectiveText(wordnet, nameService));
 			numberOfWordsUsed += aq.getNumberOfWords();
 		}
 	}
