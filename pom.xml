@@ -4,13 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.sermo-de-arboribus</groupId>
 	<artifactId>NaNoGenMo2022</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>National Novel Generation Month 2022</name>
 	<description>Participation project in 2022's National Novel Generation Month</description>
+	<packaging>jar</packaging>
 
 	<properties>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-version>5.3.23</spring-version>
 	</properties>
 
@@ -26,6 +28,7 @@
 		</resources>
 
 		<plugins>
+			<!-- Generate java code from XSD schema files -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jaxb2-maven-plugin</artifactId>
@@ -49,6 +52,30 @@
 					<outputDirectory>${basedir}/src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>
 				</configuration>
+			</plugin>
+			<!-- Build .zip of project -->
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.4.2</version>
+				<configuration>
+					<descriptors>
+						<descriptor>src/assembly/src.xml</descriptor>
+					</descriptors>
+					<archive>
+			            <manifest>
+							<mainClass>de.sda.novel.NovelGeneratorApplication</mainClass>
+			            </manifest>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id> <!-- this is used for inheritance merges -->
+						<phase>package</phase> <!-- bind to the packaging phase -->
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
@@ -88,7 +115,12 @@
 		<dependency>
 			<groupId>org.dkpro.core</groupId>
 			<artifactId>dkpro-core-matetools-gpl</artifactId>
-			<version>2.2.0</version>
+			<version>1.11.0</version>
+		</dependency>
+		<dependency> 
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.5</version>
 		</dependency>
 	</dependencies>
 	

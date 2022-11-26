@@ -1,0 +1,2322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="quotes-schema.xsd">
+   <quote genre="psychology">
+      <version status="original" lang="en-AT" public-domain="2008">
+            <text>People often believe that left and right are contradictions, that man and woman, hot and cold, light and heavy, strong and weak are contradictions. From a scientific standpoint, they are not contradictions, but varieties. They are degrees of a scale, arranged in accordance with their approximation to some ideal fiction. In the same way, good and bad, normal and abnormal, are not contradictions but varieties. Any theory which treats sleep and waking, dream thoughts and day thoughts, as contradictions is bound to be unscientific.</text>
+            <source>
+                <title>What Life Should Mean to You</title>
+                <page>60</page>
+            </source>
+        </version>
+      <author>Adler, Alfred</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>Κάλλιστον τὸ δικαιότατον, λῷστον δ' ὑγιαίνειν ἤδιστον δὲ πέφυχ' οὗ τις ἐρᾷ τὸ τυχεῖν.</text>
+            <source>
+                <title>Δηλιακὸν ἐπίγραμα</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2002">
+            <text>Das Schönste ist die Gerechtigkeit, das Beste Gesundsein. Aber das Süßeste ist, wenn man erlangt, was man liebt.</text>
+            <source>
+                <title>Delisches Epigramm</title>
+                <translator>Rolfes, Eugen</translator>
+            </source>
+        </version>
+      <author>Anonym, nach Aristoteles</author>
+   </quote>
+   <quote genre="poetry">
+      <version status="original" lang="fr-FR" public-domain="1989">
+            <text>
+Ne sois pas lascif et peureux
+Comme le lièvre et l'amoureux.
+Mais que toujours ton cerveau soit
+La hase pleine qui conçoit.</text>
+            <source>
+                <title>Poetische Werke</title>
+                <page>24</page>
+            </source>
+        </version>
+      <author>Apollinaire, Guillaume</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>φιλοῦνται δὲ σχεδὸν μάλιστα οἱ ἐλευθέριοι τῶν ἀπ᾽ ἀρετῆς· ὠφέλιμοι γὰρ, τοῦτο δ᾽ ἐν τῇ δόσει.</text>
+            <source>
+                <title>Ηθικά Νικομάχεια</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2002">
+            <text>Liebe aber und Freundschaft gewinnt kaum einer durch eine Tugend so sehr wie der Freigebige, da er sich nützlich erweist. Das geschieht aber durch Geben.</text>
+            <source>
+                <title>Nikomachische Ethik</title>
+                <idref>100</idref>
+                <translator>Rolfes, Eugen</translator>
+            </source>
+        </version>
+      <author>Aristoteles</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>οὐ γὰρ ἐπαινεῖται ὁ φοβούμενος οὐδὲ ὁ ὀργιζόμενος, οὐδὲ ψέγεται ὁ ἁπλῶς ὀργιζόμενος ἀλλ᾽ ὁ πῶς</text>
+            <source>
+                <title>Ηθικά Νικομάχεια</title>
+                <page>1106</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2002">
+            <text>[...] denn man wird nicht gelobt, wenn man sich fürchtet oder wenn man zornig wird, und nicht getadelt, wenn man einfach zornig wird, sondern wenn es auf bestimmte Weise geschieht.</text>
+            <source>
+                <title>Nikomachische Ethik</title>
+                <idref>100</idref>
+                <translator>Rolfes, Eugen</translator>
+            </source>
+        </version>
+      <author>Aristoteles</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>τῷ δὲ φευκτὸν ἢ οὐ σπουδαστὸν τὸ ἐπαρκεῖν, μοχθηρῷ ὄντι· εὖ πάσχειν γὰρ οἱ πολλοὶ βούλονται, τὸ δὲ ποιεῖν φεύγουσιν ὡς ἀλυσιτελές.</text>
+            <source>
+                <title>Ηθικά Νικομάχεια</title>
+                <page>1163</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2022">
+            <text>Denn Gutes empfangen wollen alle, aber Gutes zu tun hütet man sich, weil es nichts einbringt.</text>
+            <source>
+                <title>Nikomachische Ethik</title>
+                <idref>100</idref>
+                <translator>Rolfes, Eugen</translator>
+            </source>
+        </version>
+      <author>Aristoteles</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>ὥσπερ γὰρ καὶ τελεωθὲν βέλτιστον τῶν ζῴων ὁ ἄνθρωπός ἐστιν, οὕτω καὶ χωρισθεὶς νόμου καὶ δίκης χείριστον πάντων.</text>
+            <source>
+                <title>Πολιτικά</title>
+                <page>1253</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2002">
+            <text>Denn wie der Mensch in seiner Vollendung das vornehmste Geschöpf ist, so ist er auch, des Gesetzes und Rechtes ledig, das schlechteste von allen.</text>
+            <source>
+                <title>Politik</title>
+                <idref>101</idref>
+                <translator>Rolfes, Eugen</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1867">
+            <text>[F]or as by the completion of it man is the most excellent of all living beings, so without law and justice he would be the worst of all</text>
+            <source>
+                <title>A Treatise on Government</title>
+                <translator>Ellis, William</translator>
+            </source>
+        </version>
+      <author>Aristoteles</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Faul bin ich übrigens wie die Sünde und habe mir ordentlich instinktmäßig ein kleines Blat genommen, um nicht zu viel zu schreiben.</text>
+            <source>
+                <title>Brief an Clemens Brentano, Juli 1812, zit. n. Arnim / Brentano: Freundschaftsbriefe.</title>
+                <idref>106</idref>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>Incidentally I'm as lazy as sin and instinctively I took a properly small sheet, not to write too much.</text>
+            <source>
+                <title>Letter to Clemens Brentano, July 1812</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Arnim, Achim von</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>„Wie kann ein Wohlthäter der Menschen, mit der höchsten Weisheit und Gnade begabt, solch ein Saumatz seyn!“ seufzte Frau Hildegard. Aber Berthold, der viel in Römern und Griechen gelesen hatte, suchte ihr deutlich zu machen, wie gerade die allgemeine, wissenschaftliche Ansicht, wenn sie allein herrschend würde, die sittlichen Grenzen des einzelnen Menschen auslösche; er sehe so Mannigfaltiges, Widersprechendes geglaubt und geehrt, daß er nur den Geist achte, in welchem alles getrieben würde. Frau Hildegard schüttelte mit dem Kopfe und warnte Berthold gegen die Bücher, daß er es nicht auch einmal so treibe wie Faust, wenn er ganz gesund würde.</text>
+            <source>
+                <title>Die Kronenwächter</title>
+                <page>613</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>"How can a benefactor of mankind, blessed with the highest wisdom and grace, be such a vile creep!", Mrs. Hildegard sighed. But Berthold, who had read lots of the Romans and Greeks, tried to make it clear to her, how the general scientific opinion, when it becomes the sole ruler of discourse, is particularly capable of erasing the moral boundaries of the individual; he could see such diverse and contradictory things believed and honoured, that he only respected the mind which drives it all. Mrs. Hildegard shook her head and warned Berthold of the books, and asked him, when once he would be fully reovered, not to go as far as Faust did.</text>
+            <source>
+                <title>The Guardians of the Crown</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Arnim, Achim von</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="fr-FR" public-domain="2019">
+            <text>Il n'y a de vide dans la nature que, d'après nous, à un moment ou à un autre, l'esprit humain ne peut remplir</text>
+            <source>
+                <title>Manifests pour un théâtre avorté</title>
+            </source>
+        </version>
+      <author>Artaud, Antonin</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="fr-FR" public-domain="1960">
+            <text>Mais je me figure que l'enfer, vu par un soupirail, devrait être plus effrayant que si, d'un seul et planant regard, on pouvait l'embrasser tout entier.</text>
+            <source>
+                <title>Le dessous de cartes d'une partie de whist, en: Les Diaboliques</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2000">
+            <text>Ich bildete mir ein: Die Hölle, mit einem Male überschaut, kann lange nicht so grässlich sein wie ein Einblick in sie, getan durch ein Kellerloch.</text>
+            <source>
+                <title>Hinter den Karten, in: Die Teuflischen</title>
+                <translator>Schurig, Arthur</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-IE" public-domain="2018">
+            <text>Would not hell glimpsed through some small window be far more terrifying than if beheld in its entirety in a single sweeping glance?</text>
+            <source>
+                <title>The She-Devils</title>
+                <translator>Boyd, Ernest Augustus</translator>
+            </source>
+        </version>
+      <author>Barbey d'Aurevilly, Jules Amédéee</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="2006">
+            <text>Der neue Gesandte in Peking ist Schenk von Schweinsburg, der jetzige Gesandtschaftssekretär Speck von Sternburg. Da wäre ja die Metzelsuppe beieinander.</text>
+            <source>
+                <title>Tagebucheintrag vom 27. Februar 1893, abgedruckt in: China um 1900. Aufzeichnunge eines Krupp-Direktors</title>
+                <idref>4202</idref>
+                <page>496</page>
+            </source>
+        </version>
+      <author>Baur, Georg</author>
+   </quote>
+   <quote genre="">
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>Is is not at all certain that irrational forces are rather to be subdued through analysis than through suppression or avoidance.</text>
+            <source>
+                <title>From Berlin to Berkeley</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Bendix, Reinhard</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="cs-CZ" public-domain="2022">
+            <text>Procházím tu třetí večer už nějak zvyklý a usmířen s životem v přístavu. Stožáry a lana lodí tvoří aleje, z kterých opadalo listí. Na pozadí jasného nebe běží kočka po kalenci. Přeskočila půlměsíc, který jí stanul v cestě.</text>
+            <source>
+                <title>Cesta na Jávu</title>
+                <idref>283</idref>
+                <page>18</page>
+            </source>
+        </version>
+      <author>Biebl, Konstantin</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="cs-CZ" public-domain="2022">
+            <text>Prvně v životě poznávám, co je to hudba vůní. Nedovedu to přesně vyjádřit, ale mé srdce šlo při tom ztěžka jako v medu a můj mozek si připadal jako naložený ořech uprostřed vybraně uspořádaného kompotu.</text>
+            <source>
+                <title>Cesta na Jávu</title>
+                <idref>283</idref>
+                <page>72</page>
+            </source>
+        </version>
+      <author>Biebl, Konstantin</author>
+   </quote>
+   <quote genre="">
+      <version status="unpublished" lang="en-DE" public-domain="2022">
+            <text>The way from 'Riesling dry' to 'Riesling sweet' might cross several social class borders.</text>
+            <source>
+                <title>Sociological Foundations of Social Work</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Biermann, Benno</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-AT" public-domain="2022">
+            <text>Der Hafen ist zerstört und ist nicht mehr Hafen. Und trotzdem ist es schwer, ihn zu verlassen und ins Grenzenlose sich zu wagen.</text>
+            <source>
+                <title>Der Tod des Vergil</title>
+            </source>
+        </version>
+      <author>Broch, Hermann</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-IR" public-domain="1867">
+            <text>Fr[iend] [...] But tell me, I pray you, why has the world, through all ages and nations, universally ascribed heroism and glory to conquest?
+Aut[thor] Through the respect, as I take it, that they have for power. Man is by nature weak; he is born in and to a state of dependence; he therefore naturally seeks and looks about for help; and where he observes the greatest power, it is there that he applies and prays for protection. Now, though this power should be exerted to his damage, instead of defence, it makes no alteration in his reverence for it; he bows while he trembles, and while he detests he worships.
+            </text>
+            <source>
+                <title>The Fool of Quality; Or, The History of Henry, Earl of Moreland, Vol. 1</title>
+                <page>155</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1867">
+            <text>Freund. [...] Aber sage mir, Freund, wie kam es, daß, alle Zeitalter und Nationen hindurch, die Welt allgemein den Namen und Ruhm des Heroismus dem <em>Eroberer</em> zugewandt hat?
+Verf[asser]. Aus Respect, glaube ich, für die <em>Gewalt</em>. Der Mensch ist von Natur schwach; in und zu einem Stande der Abhängigkeit ist er gebohren. Natürlich sieht er also nach Hülfe umher, und wo er die größeste Macht bemerkt, dahin wendet er sich und flehet um Schutz. Würde nun auch diese Macht ihm zum Schaden angewandt, statt ihn zu beschirmen; dies ändert in seiner Hochachtung für die Gewalt nichts. Zitternd bückt er sich; indem er verabscheut, betet er an.</text>
+            <source>
+                <title>Wer war der größeste Held? (in: Adrastea, fünftes Stück)</title>
+                <translator>Herder, Johann Gottfried</translator>
+            </source>
+        </version>
+      <author>Brooke, Henry</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1867">
+            <text>[...] a company of foolish note-makers, humble-bees, dors, or beetles, inter stercora ut plurimum versantur, they rake over all those rubbish and dunghills, and prefer a manuscript many times before the Gospel itself, Thesaurum criticum, before any treasure, and with their deleaturs, alii legunt sic, meus codex sic habet, with their postremæ editiones, annotations, castigations, &amp;c. make books dear, themselves ridiculous, and do nobody good,</text>
+            <source>
+                <title>The Anatomy of Melancholy</title>
+            </source>
+        </version>
+      <author>Burton, Robert</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1867">
+            <text>And sure, I think, it hath been ordered by God's especial providence, that in all ages there should be (as usually there is) once in 600 years, a transmigration of nations, to amend and purify the blood, as we alter seed upon our land, and that there should be as it were an inundation of those nothern Goths and Vandals, and many such like people which came out of that continent of Scandia and Sarmatia (as some suppose) and over-ran, as a deluge, most part of Europe and Africa, to alter for our good, our complexions, which were much defaced with hereditary infirmities, which by our lust and intemperance we had contracted.</text>
+            <source>
+                <title>The Anatomy of Melancholy</title>
+                <page>134</page>
+            </source>
+        </version>
+      <author>Burton, Robert</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1970">
+            <text>Äußerste Reaktion neben äußerstem Fortschritt, äußerster Absolutismus neben äußerster Demokratie, der größte Unterschied der Stände neben dem größten Streben sie gleichzumachen, der fabelhafteste Reichthum neben der grenzenlosesten Armuth, die höchste Bildung neben der tiefsten Unwissenheit, die höchste Freiheit der Geister neben ihrer tiefsten Sklaverei, Orthodoxie, Pietismus und Fanatismus in allen Gestalten neben Unglaube, Atheismus und äußerster Toleranz der Meinung, reißender Fortschritt der Wissenschaft neben der kecksten Verleugnung und Verachtung ihrer Resultate, Aufklärung neben Verdummung, Kühnheit neben Zopfthum, rastlose Forschung neben rastloser Unterdrückung, Licht neben Finsterniß.</text>
+            <source>
+                <title>Der Gottesbegriff und seine Bedeutung für die Gegenwart. In: Aus Natur und Wissenschaft. Studien, Kritiken und Abhandlungen, Band 1</title>
+                <page>6</page>
+            </source>
+        </version>
+      <version status="translation" lang="fr-FR" public-domain="1970">
+            <text>L'excès de réaction en face de l'excès du progrès, l'excès d'absolutisme en face de l'excès de démocratie, la différence la plus grande entre les classes en face de la tendance la plus grande à atteindre l'égalité, la richesse la plus fabuleuse en face de la pauvreté la plus illimitée, la civilisation la plus élevée en face de l'ignorance la plus profonde, la liberté la plus grande de l'esprit en face de l'esclavage le plus complet, l'orthodoxie, le piétisme, le fanatisme sous toutes les formes en face de l'incrédulité de l'athéisme et de la tolérance d'opinions la plus excessive, le progrès rapide des sciences en face de la négation et du mépris le plus éhonté de ses résultats, la production de la lumière en face de la production de l'obscurité, la témérité en face de la pusillanimité, le progrès incessant des connaissances en face de la dépression incessante du niveau de l'intelligence la lumière en face de l'obscurité.</text>
+            <source>
+                <title>De l'idée de dieu et de sa signification dans l'époque actuelle, dans:Science et nature. Essais de philosophie et de science naturelle.</title>
+                <page>9/10</page>
+                <translator>Delondre, Augustin</translator>
+            </source>
+        </version>
+      <author>Büchner, Ludwig</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1970">
+            <text>Was noch einmal die Naturwissenschaften betrifft, so bekämpfen sie nicht die <em>Philosophie</em>, sondern die <em>Philosophen</em> und deren spekulativen Dünkel, welcher sich nicht um Thatsachen und um Erfahrung kümmern will, wie man ja wahrlich auf jeder Seite bei ihnen lesen kann.</text>
+            <source>
+                <title>Der Gottesbegriff und seine Bedeutung für die Gegenwart. In: Aus Natur und Wissenschaft. Studien, Kritiken und Abhandlungen, Band 1</title>
+            </source>
+        </version>
+      <version status="translation" lang="fr-FR" public-domain="1970">
+            <text>Encore une fois, en ce qui concerne les sciences naturelles, elles combattent, non la philosophie, mais les philosophes et leur obscurité spéculative, qui ne paraissent pas se soucier des faits, ni de l'expérience ainsi qu'on peut le lire en réalité à chaque page des ouvrages philosophiques.</text>
+            <source>
+                <title>De l'idée de dieu et de sa signification dans l'époque actuelle, dans:Science et nature. Essais de philosophie et de science naturelle.</title>
+                <page>9/10</page>
+                <translator>Delondre, Augustin</translator>
+            </source>
+        </version>
+      <author>Büchner, Ludwig</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>To be clever enough to get all the money, one must be stupid enough to want it.</text>
+            <source>
+                <title>The Wisdom of Father Brown</title>
+                <idref>558</idref>
+                <page>113</page>
+            </source>
+        </version>
+      <version status="translation" lang="fr-FR" public-domain="2007">
+            <text>Pour être assez intelligent pour gagner tout cet argent, un homme doit être assez bête pour le vouloir.</text>
+            <source>
+                <title>Le Paradis des voleurs, dans: La sagesse du Père Brown</title>
+                <translator>André, Yves</translator>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>Tradition means giving votes to the most obscure of all classes, our ancestors. It is the democracy of the dead.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>207</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>For grown-up people are not strong enough to exult in monotony.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>218</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>Every man is idealistic; only it so often happens that he has the wrong ideal.</text>
+            <source>
+                <title>Heretics</title>
+                <idref>560</idref>
+                <page>133</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>It is easy to deny one's self festivity; it is difficult to deny one's self normality.</text>
+            <source>
+                <title>Heretics</title>
+                <idref>560</idref>
+                <page>52</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>The one genuinely dangerous and immoral way of drinking wine is to drink it as a medicine.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>51</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>The poet delights in disorder only. If it were not so, the most poetical thing in the world would be the Underground Railway.</text>
+            <source>
+                <title>The Man Who Was Thursday</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1990">
+            <text>Der Poet entflammt sich einzig am Chaos. Wenn dem nicht so wäre, dann wäre das poetischste Ding von der Welt die Untergrundbahn.</text>
+            <source>
+                <title>Der Mann, der Donnerstag war</title>
+                <translator>Lautensack, Heinrich</translator>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>And though St. John the Evangelist saw many strange monsters in his vision, he saw no creature so wild as one of his own commentators.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>178</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>I should regard any civilization which was without a universal habit of uproarious dancing as being, from the full human point of view, a defective civilization.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>121</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>"My country, right or wrong" is a thing no patriot would ever think of saying except in a desperate case. It is like saying "My mother, drunk or sober". No doubt if a decent man's mother took to drink he would share her troubles to the last; but to talk as if he would be in a state of gay indifference as to whether his mother took to drink or not is certainly not the language of men who know the great mystery.</text>
+            <source>
+                <title>A Defense of Patriotism</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2007">
+            <text>„Mein Land, im Recht oder Unrecht“, ist etwas, was einem Patrioten nie einfiele zu sagen, höchstens in einem verzweifelten Falle. Als ob man sagte: „Meine Mutter, betrunken oder nüchtern.“ Kein Zweifel, wenn eines anständigen Mannes Mutter sich dem Trunk ergäbe, er würde ihre Sorgen bis zuletzt teilen; aber zu reden, als ob er in einem Zustande heiterer Gleichgültigkeit wäre, ob seine Mutter sich dem Trunk ergäbe oder nicht, ist sicher nicht die Sprache von Menschen, die das große Geheimnis kennen.</text>
+            <source>
+                <title>Verteidigung des Patriotismus, aus: Verteidigung des Unsinns, der Demut, des Schundromans und anderer missachteter Dinge</title>
+                <translator>Anonymus</translator>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>If you consulted your business experience instead of your ugly individualistic philosophy, you would know that believing in himself is one of the commonest signs of a rotter.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>176</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>"My dear Miss Gregory", said Syme gently, "there are many kinds of sincerity and insincerity. When you say 'thank you' for the salt, do you mean what you say? No. When you say 'the world is round', do you mean what you say? No. It is true, but you don't mean it. Now, sometimes a man like your brother really finds a thing he does mean. It may be only half-truth, quarter-truth, tenth-truth; but then he says more than he means - from sheer force of meaning it."</text>
+            <source>
+                <title>The Man Who Was Thursday</title>
+                <idref>562</idref>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1990">
+            <text>„Meine teuere Miss Gregory“, sagte Syme verbindlich, „es gibt Aufrichtigkeit und es gibt Unaufrichtigkeit. Es gibt aber auch solche Aufrichtigkeit und solche ‒ und solche Unaufrichtigkeit und andere. Wenn Sie für das Salzfass etwa danke sagen: Meinen Sie da auch, was Sie sagen? Nein. Wenn Sie sagen, die Welt ist rund, meinen Sie da auch, was Sie sagen? Nein. Es ist allemal etwas Wahres; ‒ aber Sie meinen es nicht. Nun denn: ein Mann wie Ihr Bruder findet zuweilen in der Tat ein Ding, das er meint. Es braucht nur ein halbwahr, viertelwahr, zehntelwahr Ding zu sein; aber dann sagt er mehr als er meint ‒ vor lauter Meinen-müssen.“</text>
+            <source>
+                <title>Der Mann, der Donnerstag war</title>
+                <translator>Lautensack, Heinrich</translator>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+            <text>The poet only asks to get his head into the heavens. It is the logician who seeks to get the heavens into his head. And it is his head that splits.</text>
+            <source>
+                <title>Heretics / Orthodoxy</title>
+                <idref>560</idref>
+                <page>178</page>
+            </source>
+        </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="2007">
+           <text>There is more simplicity in the man who eats caviar on impulse than in the man who eats Grape-Nuts on principle.</text>
+           <source>
+               <title>Heretics / Orthodoxy</title>
+               <idref>560</idref>
+           </source>
+       </version>
+      <author>Chesterton, Gilbert Keith</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1960">
+            <text>My life lives in my love. And my love lives in my blindness.</text>
+            <source>
+                <title>Poor Miss Finch</title>
+                <page>430</page>
+            </source>
+        </version>
+      <author>Collins, Wilkie</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1960">
+            <text>When God made the womens, he was sorry afterwards for the poor mens — and he made tobaccos to comfort them.</text>
+            <source>
+                <title>Poor Miss Finch</title>
+            </source>
+        </version>
+      <author>Collins, Wilkie</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1960">
+            <text>In these days, when we have all got watches or clocks, why are bells wanted to remind us when the service begins? We don't require to be rung into the theatre. How excessively discreditable to the clergy to be obliged to ring us into the church!</text>
+            <source>
+                <title>Armadale</title>
+            </source>
+        </version>
+      <author>Collins, Wilkie</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-PL" public-domain="1995">
+            <text>The earth for us is a place to live in, where we must put up with sights, with sounds, with smells, too, by Jove! ‒ breathe dead hippo, so to speak, and not be contaminated.</text>
+            <source>
+                <title>The Heart of Darkness</title>
+                <idref>595</idref>
+                <page>71</page>
+            </source>
+        </version>
+      <author>Conrad, Joseph</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1961">
+            <text>Einmal war sein Seelenleben ein breiter, ungetheilter Strom gewesen, in dem sich das ganze Universum gespiegelt. Da hatte er es leicht gehabt, zu erkennen und zu durchschauen. Nun hatte sich nach dem natürlichen Gesetze der geistigen Organspaltung sein Seelenleben differenzirt, und der große, breite, ungetheilte Strom seines Inneren hatte sich in unzählige Flüsse und Flüßlein, Bäche und Rinnsale zersplittert und aufgelöst, darin sich nur noch zerbrochene Theile und Theilchen des Universums spiegeln und wiederfinden konnten. Wo einmal ein einziges, großes, gesammeltes Interesse geherrscht, das den Tod bedingen mußte, wenn es im rechten Augenblicke verstanden, ausgelöst und in die That umgesetzt wurde, da herrschten jetzt tausend kleinere Sonderinteressen, die das Leben in sich schlossen. Ja! Er mußte leben. Er hatte den Tod versäumt. Er war zum Leben verurtheilt.</text>
+            <source>
+                <title>Adam Mensch</title>
+                <page>361-362</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1961">
+            <text>Once his inner life had been a wide, undivided stream that mirrored the whole universe. At that time it was easy for him to realise and to see through. By now his inner life has differentiated according to the natural law of psychic organ fission, and the great, wide, undivided stream inside him has splintered into uncountable rivers and rivulets, creeks and trickles, that reflect and allow to reconstruct only broken parts and particles of the universe. Where there once had been a single, great, collected interest that had to cause death if it was understood, triggered and put into practice in the right moment, there were now a thousand smaller particular interests that encased life. Yes! He had to live. He had missed death. He was sentenced to life.</text>
+            <source>
+                <title>Adam Man</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <version status="unpublished" lang="fr-DE" public-domain="1961">
+            <text>Jadis sa vie spirituelle avait été un large courant non partagée dans lequel l'univers tout entier se reflétait. À cette époque il avait beau jeu à reconnaître et à voir à travers. Maintenant, selon la loi naturelle de la division des organes mentaux, sa vie spirituelle avait été différenciée, et le grand et large courant non partagé de son intérieur s’était brisé et dissous en innombrables rivières et écoulements, ruisseaux et filets d'eau, dans lesquels ne se reflètent et ne se trouvaient que des parties et des particules brisées de l’univers. Là où autrefois dominait un seul et grand intérêt réuni, qui devait conditionner la mort, quand il était compris, déclenché et mis en œuvre au bon moment, il régnait maintenant un millier d’intérêts particuliers plus petits qui impliquaient la vie. Oui! Il devait vivre. Il avait raté la mort. Il a été condamné à la vie.</text>
+            <source>
+                <title>Adam l'homme</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Conradi, Hermann</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1961">
+            <text>Mag es den Friseuren überlassen bleiben, auf vorüberflatternde lange Haare lüstern zu sein. In sich sein — bei sich sein, in sich hineinleben, aus sich herausleben — darauf kam es an.</text>
+            <source>
+                <title>Adam Mensch</title>
+                <page>164</page>
+            </source>
+        </version>
+      <author>Conradi, Hermann</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1961">
+            <text>Die Heimchen zirpten, auf den Stufen winselten blauschwarze, schwindsüchtige Mondscheinschatten.</text>
+            <source>
+                <title>Adam Mensch</title>
+                <page>417</page>
+            </source>
+        </version>
+      <author>Conradi, Hermann</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1961">
+            <text>Der liebe Gott mußte schlechterdings gerade am Asthma gelitten haben, als er diesem Menschen da seinen Odem in die Nase blies.</text>
+            <source>
+                <title>Adam Mensch</title>
+                <page>167</page>
+            </source>
+        </version>
+      <author>Conradi, Hermann</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>Elle parlait plusieurs langues, imparfaitement à la vérité, mais toujours avec vivacité, quelquefois avec grâce. Ses idées semblaient se faire jour à travers les obstacles, et sortir de cette lutte, plus agréables, plus naïves et plus neuves: car les idiomes étrangers rajeunissent les pensées, et les débarassent de ces tournures qui les font paraître tour-à-tour communes et affectées.</text>
+            <source>
+                <title>Adolphe</title>
+                <page>30-31</page>
+            </source>
+        </version>
+      <author>Constant, Benjamin</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1941">
+            <text>The changes of a fevered room are slow and fluctuating; but the changes of the fevered world are rapid and irrevocable.</text>
+            <source>
+                <title>Little Dorrit</title>
+                <idref>687</idref>
+                <page>721</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1970">
+            <text>Die Veränderungen im Zimmer eines Fieberkranken sind langsam und wechselvoll; aber die Veränderungen in der fiebernden Welt sind rasch und unwiderruflich.</text>
+            <source>
+                <title>Klein Dorrit, Band 2</title>
+                <translator>Busch, Moritz</translator>
+            </source>
+        </version>
+      <author>Dickens, Charles</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>F..tez comme des ânes débâtés, mais permettez moi que je dise f..tre[.]</text>
+            <source>
+                <title>Jacques le fataliste et son maître</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1898">
+            <text>Rammelt wie abgesattelte Esel, aber gestattet mir, daß ich rammeln sage.</text>
+            <source>
+                <title>Jakob und sein Herr</title>
+                <idref>694</idref>
+                <translator>Mylius, Wilhelm Christhelf Siegmund</translator>
+            </source>
+        </version>
+      <author>Diderot, Denis</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>Coutelet, ne voyais-tu pas que Dieu te fit pour aller à plusieurs Gaines; et toi, Gaine, pour recevoir plus d'un Coutelet? Vous regardiez comme fous certains Coutelets qui faisaient vœu de se passer à forfait de Gaines, et comme folles certaines Gaines qui faisaient vœu de se fermer pour tout Coutelet: et vous ne pensiez pas que vous étiez presque aussi fous lorsque vous juriez, toi, Gaine, de t'en tenir à un seul Coutelet; toi, Coutelet, de t'en tenir à une seule Gaine.</text>
+            <source>
+                <title>Jacques le fataliste et son maître</title>
+                <page>166</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1898">
+            <text>Messer, sahst du nicht, daß Gott dich gemacht hat, um in mehr als eine Scheide zu passen? Und dich Scheide, um mehr als ein Messer zuzulassen? Ihr schaltet gewisse Thoren, die das Gelübde thaten, allen Scheiden zu entsagen, und gewisse Scheiden Thörinnen, die das Gelübde ablegten, sich allen Messern zu verschließen: und ihr überlegt nicht, daß ihr fast ebenso thöricht handeltet, als ihr euch schwurt, du Scheide dich an einem einzigen Messer, und du Messer, dich an einer einzigen Scheide zu begnügen!</text>
+            <source>
+                <title>Jakob und sein Herr</title>
+                <idref>694</idref>
+                <translator>Mylius, Wilhelm Christhelf Sigmund</translator>
+            </source>
+        </version>
+      <author>Diderot, Denis</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>Sais-tu qui sont les mauvais pères? ce sont ceux qui ont oublié les fautes de leur jeunesse.</text>
+            <source>
+                <title>Jacques le fataliste et son maître</title>
+                <page>291-292</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1898">
+            <text>Schlechte Väter sind diejenigen, welche die Fehler ihrer Jugend vergessen haben.</text>
+            <source>
+                <title>Jakob und sein Herr</title>
+                <idref>694</idref>
+                <translator>Christhelf, Wilhelm</translator>
+                <translator>Mylius, Siegmund</translator>
+            </source>
+        </version>
+      <author>Diderot, Denis</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1867">
+            <text>[...] for it is a madness to be sober alone, while the nation continues drunk[.]</text>
+            <source>
+                <title>The Preface to Religio Laici; or, a Layman's Faith</title>
+            </source>
+        </version>
+      <author>Dryden, John</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="en-GB" public-domain="1867">
+            <text>A man is to be cheated into passion, but to be reasoned into truth.</text>
+            <source>
+                <title>The Preface to Religio Laici; or, a Layman's Faith</title>
+            </source>
+        </version>
+      <author>Dryden, John</author>
+   </quote>
+   <quote genre="linguistics">
+      <version status="original" lang="la-DE" public-domain="1867">
+            <text>Praeterea cibus &amp; potus huc multum faciunt, quapropter bibaces populus ut plurimum tardius loqui ceteris, observamus.</text>
+            <source>
+                <title>Schediasma philologica de initio discrepantiae linguarum</title>
+                <page>VIII</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="de-DE" public-domain="1867">
+            <text>Dort, wo sie viel zu Essen und zu Trinken haben, können wir beobachten, dass trinkfreudige Völker viel langsamer als andere sprechen.</text>
+            <source>
+                <title>Philologische Skizze über den Ursprung der sprachlichen Unterschiede</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Egenolff, Johann Augustin</author>
+   </quote>
+   <quote genre="poetry">
+      <version status="original" lang="de-DE" public-domain="1928">
+            <text>Ein' Gems auf dem Stein,
+ein' Vogel im Flug,
+ein Mädel, das klug,
+kein Bursch holt die ein.</text>
+            <source>
+                <title>Übermut, zit. n. Werke in einem Band</title>
+                <idref>779</idref>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1928">
+            <text>A chamois on the rock,
+a bird in flight,
+a girl who is shrewd,
+no lad can catch them.</text>
+            <source>
+                <title>High spirits</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Eichendorff, Joseph von</author>
+   </quote>
+   <quote genre="poetry">
+      <version status="original" lang="de-DE" public-domain="1928">
+            <text>Auf das Wohlsein der Poeten,
+Die nicht schillern und nicht göthen,
+Durch die Welt in Lust und Nöten
+Segelnd frisch auf eignen Böten.</text>
+            <source>
+                <title>Tafellieder, zit. n. Werke in einem Band</title>
+                <idref>779</idref>
+            </source>
+        </version>
+      <author>Eichendorff, Joseph von</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="en-GB" public-domain="1951">
+            <text>The difficult task of knowing another soul is not for young gentlemen whose consciousness is chiefly made up of their own wishes.</text>
+            <source>
+                <title>Middlemarch</title>
+            </source>
+        </version>
+      <author>Eliot, George</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="en-GB" public-domain="1951">
+            <text>Iteration, like friction, is likely to generate heat instead of progress</text>
+            <source>
+                <title>The Mill on the Floss</title>
+            </source>
+        </version>
+      <author>Eliot, George</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="en-GB" public-domain="1961">
+            <text>[...] if you are inclined to be severe on his severity, remember that the responsibility of tolerance lies with those who have the wider vision.</text>
+            <source>
+                <title>The Mill on the Floss</title>
+                <idref>788</idref>
+                <page>512</page>
+            </source>
+        </version>
+      <author>Eliot, George</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="la-NL" public-domain="1867">
+            <text>Si plurimum numeraris, in templo proxime summum altare licebit putrescere: sin parce dederis, inter plebejos sub dio complueris.</text>
+            <source>
+                <title>Adagia</title>
+                <idref>4130</idref>
+                <page>50</page>
+            </source>
+        </version>
+      <author>Erasmus von Rotterdam</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="la-NL" public-domain="1867">
+            <text>Siquidem nullorum benefactis malignius respondet gratia, quam eorum, qui de vulgo bene merentur.</text>
+            <source>
+                <title>Adagia</title>
+                <idref>4130</idref>
+                <page>122-124</page>
+            </source>
+        </version>
+      <author>Erasmus von Rotterdam</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="la-NL" public-domain="1867">
+            <text>[U]nicuique regioni quaedam peculiaria esse instituta, quae hospites non damnare, sed pro virili nostra imitari atque exprimere debeamus. [...] Sed est quaedam difficilis ac praefracta, morosaque simplicitas imperitorum, qua postulant, ut omnes ubique ipsorum duntaxat moribus vivant, et quicquid aliis placet, id damnant.</text>
+            <source>
+                <title>Adagia</title>
+                <idref>4130</idref>
+                <page>34-36</page>
+            </source>
+        </version>
+      <author>Erasmus von Rotterdam</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="la-NL" public-domain="1867">
+            <text>Et est fortassis, qui videat, hinc maximam reipublicae pestem nasci, quod ad gerendos magistratus adsciscuntur, non qui prudentia, rerum usu, vitae integritate, plurimum prodesse reipublicae possint, sed qui maxima pecuniae summa licitentur: verum huc pertrahit avaritia, ut neglecto publico malo, fisci negotium agat.</text>
+            <source>
+                <title>Adagia</title>
+                <idref>4130</idref>
+                <page>78-80</page>
+            </source>
+        </version>
+      <author>Erasmus von Rotterdam</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="la-NL" public-domain="1867">
+            <text>Xerxes, Cyrus, Alexander Magnus, et vixissent diutius, et veriorem gloriam essent consecuti, si suas civitates recte administrare, quam alienas armis vexare maluissent.</text>
+            <source>
+                <title>Adagia</title>
+                <idref>4130</idref>
+                <page>102</page>
+            </source>
+        </version>
+      <author>Erasmus von Rotterdam</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>Εχθρός γενοίμην μηδενός, φίλος δε του αίει και παραμενέοντος και μήκοτε μεν διενεχθείην προς τους οικειοτάτους διενεχθείς δε διαλλαχθείην ως τάχιστα. Μηδενί επιβουλεύσαιμι επιβουλευόμενος δε άνευ ανάγκης του τι αν δράσαι ανήκεστον απαθής διαφύγοιμι.
+Οργής κρατοίην.
+Ερώην και επιθυμέοιμι και τυγχάνοιμιμούνων των καλών των δε απ εναντίας της επιθυμίης, μηδε αμαρτών κοτε ώστε εύξασθαι, τύχοιμι.
+Βουλοίμην πάντας ευτυχέειν, φθονήσαιμι μηδενί τών ευτυχεόντων.
+Μήκοτέ τις έμε τών νομιζομένων παραλόγως ευ πρήσσειν εκπλήξειε, μηδε ανιήσειε τί γάρ δεί τοις παρά της τύχης δεδομένοις φθονέειν; φίλοι δέ με και οι κατ αξίην ευτυχέοντες, ευφραίνοιεν.
+Μήκοτε τώ από οικείης γνώμης έχθρην κατ εμού επανελoμένω δυστυχήσαντι επησθείην. Μήκοτε συγγνοίην και έμωυτώ κακού τευ τινι αιτίην παρασχόνπι.
+Λαθών κοτε έμωυτόν ως παρά μέλος ήτοι τι είπας, ή πράξας, μή περιμείναιμι τους μωμησομένους και επιπλήξοντας αυτός δε έμωυτόν μωμησαίμην, μέχρι του ακέσασθαι.
+Ειδείην γενναίως φέρειν τα προσπίπτοντα και τα μέτρια εκδεχοίμην, ώσπερ αυτών έχει ή φύσις τους δε υπερβάλλουσι μή και το παρ έμωυτού προστιθείην.
+Ευτυχίην ειδείην φέρειν σωφρόνως, μήκοτε υπό ευπρηγίης ες υπερηφανίην άλογον αερθείην.
+Πλούτον νομίζοιμι τον αρκέοντα βίω τώ σώφρονι.
+Απαυστον και ακόρεστον επιθυμίην χρημάτων μεν μήκοτε εχοίην, μούνων δε των ωφελεόντων την ψυχήν μαθημάτων εθέλοιμι α δεί έσεσθαι.
+Νικώην νίκην την και εμοί και τό προσδιαλεγομένω αβλαβέα.
+Φιλοτιμέεσθαι παρά καιρον προς φίλους και εν ταις ζητήσεσι φυλασσοίμην.
+Μήκοτε και παρά το εμοί δοκέον εν ταίς ζητήσεσι του νικάν ένεκα έριν ασπασαίμην.
+Μήκοτε επί βλάβη του αληθέος, και ώστε παρ ά αυτός οίδα παραλογίσασθαι τον προσδιαλεγόμενον, ερίσαι επαρθείην.
+Τοις το αληθές λόγοις ξυνιστάσιν άει ξυμμαχοίμην.
+Ακολάστου επιθυμίης τι μήκοτε μηδε έννοηθείην.
+Ξυνείην αει τοίς σώφροσιν είη τέ μοι αεί προσδιαλέγεσθαι, παρ ών εστί τι πάντως απελθείν χρηστον προσλαβόντι.
+Μήκοτε επάρθείην κέρδεος ένεκα πλημμελήσαι. 
+Φίλους διαφερομένους καταρτίζοιμι.
+Φίλοις δυνάμενος και τοις δεομένοις τα δέοντα επαρκέοιμι. 
+Φίλους εν κινδύνοις καταστάντας δυνάμενος ωφελέειν, μήκοτε εγκαταλίποιμι.
+Φίλων ξυμφοράς, αφ ών οίόν τε, επανορθούσθαι προθυμοίμην.
+Λυπεομένοισι παρεών, ελαφρύνοιμι ήπίω και ακεσίμω λόγω τάς ανίας.
+Ειδείην εμωυτόν αιδέεσθαι.
+Τών καλών φιλομαθείην ασκέοιμι.
+Ζητοίην μή τα περισσά, αλλά περί ών άριστον, και ά μαθών ωφελησοίμην.
+Θεούς τιμώην και νόμω πόλιος, και σπουδή οικείη, νόφ ευσεβεί.
+Αει τον εν εμοί θυμουμενον ήμεροίην.
+Εθίζοιμι έμωυτόν ίλεω είναι, και μή πρός τα πρήγματα έχειν δυσκόλως.
+Τίς πονηρός, και τίνι τουτον τί ποτε πέπρηκται, μή μέλοιμι ειδείην δε τους αγαθούς, και τούτους μεταδιώκοιμι.
+Οφείλοιμι μηδενί μηδεν ει δέ κοτε υπ ανάγκης μεγάλης ες τούτο κατασταίην, γένοιτό μου τάχιστα ελευθέρω γενέσθαι δυνηθήναι.
+Αινέοιμι τους αγαθούς αφθόνως φιλόψογον δε γλώσσαν παντός αποστυγοίην.
+Ειδείην σιγάν, περί ων άμεινον.</text>
+            <source>
+                <title>Johannes Stobaios, Florilegium I</title>
+            </source>
+        </version>
+      <version status="translation" lang="la-DE" public-domain="1953">
+            <text>Nemmi inimicus esse velim, amicum autem eum habere qui in amicitia eam perpetuo mansurus sit; neque unquam dissidere a familiarissimis; sin dissidium factum sit, quam primum iis reconciliari.
+Nolim cuiquam insidias parare, insidiis vero petitus utinam salvus evadam, nequaquam gravissimum malum vicissim alteri afferre coactus.
+Utinam iram cohibeam; amem, desiderem et assequar sola bona. Quae vero sunt inhonestae cupiditatis, ea nec per errorem optanti contingere velim.
+Omnes quidem felicitate florere cupiam, sed illorum qui felices sunt nemini invideam.
+Nunquam quisquam eorum qui fortunati temere habentur, me vel obstupefaciat vel molestia afficiat.
+Quid enim attinet fortunae donis invidere?
+Amici potius me, quique pro dignitate fortuna secunda utuntur, exhilarent.
+Nunquam etiam ei qui sponte sua inimicitiam mecum suscepit, postquam cum fortuna adversa conflictatus est, laetus insultem.
+Nunquam mihi conscius sim, me occasionem ullius mali cuiquam praebuisse.
+Si quando per imprudentiam inepte quid vel dixero vel fecero, ne exspectem, dum alii reprehendant et objurgent, sed ipse me potius vituperem, donec incommodo medear.
+Norim fortiter ferre casus, et mediocria pro re nata accipiam; quae vero modum excedunt, iis ne quid mea culpa addam, cavebo.
+Fortunam secundam modests ferre sciam, ne quando ob res secundas stulta arrogantia efferar.
+Divitias judicem, quod satis sit vitae moderatae.
+Effrenata et insatiabili pecuniae cupiditate ne unquam flagrem, sed solarum quae animis prosunt disciplinarum desiderio semper agi velim.
+Victoriam consequar, quae et mihi et contradicenti innoxia sit.
+Contendere intempestive cum amicis etiam in disputationibus caveam.
+Porro ne unquam supra meam opinionem in disputationibus vincendi studio contentionis cupidus sim.
+Praeterea ne unquam veritatis damno ac secus quam ipse sentio falsa argumentatione decipere colloquentem aut saltem litigare in animum inducam.
+Qui veritatem dictis suis confirmant, eorum socius semper ese velim.
+Ne mihi ulla unquam inexplebilis cupiditas vel in mentem veniat.
+Converser assidue prudentibus: liceatque mihi cum his colloqui, a quibus insuper omnino aliquid boni adeptus discedam.
+Nunquam adducar, ut lucri causa peccem.
+Amicos dissidentes reconciliem.
+Amicis, si queam, et indigentibus necessaria suppeditem.
+Amicos in periculo versantes, si queam juvare, nunquam deseram.
+Amicorum calamitates, quibuscunque rebus fieri potest, levare studeam.
+Dolentibus conversans leni et benigna oratione eorum moerorem minuam.
+Norim me ipsum vereri.
+Rerum honestarum studia colam.
+Quaeram non supervacanea, sed ea de quibus optime habeatur quaestio et quae percepta mihi prodesse poterunt.
+Deos venerer et ritu civitatis et propria diligentia et mente pia.
+Semper iram meam placabo.
+Assuescam comitati facilitatique, ita ut res nequaquam iniquo animo feram.
+Quis malus sit et quid tandem ab horum quovis patratum sit, ne curem; norim autem bonos eosque secter.
+Ne cu iquid debeam: sed si quando fatali necessitate coactus eo descendam, contingat mihi, ut citissime queam liberari.
+Laudem bonos copiose: maledicam autem linguam cujusvis oderim.
+Tacero sciam, de quibus tacerer satius est.</text>
+            <source>
+                <title>Fragmenta philosophorum graecorum, Volumen III</title>
+                <page>7-8</page>
+                <translator>Mullach, Friedrich Wilhelm August</translator>
+            </source>
+        </version>
+      <author>Eusebios (in: Joannes Stobaeus, Florilegium I, 85)</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="fr-FR" public-domain="1951">
+            <text>Tout était faux! faux réalisme, fausse armée, faux crédit et même fausses catins. [...] On demandait à l'Art d'être moral, à la philosophie d'être claire, au vice d'être décent et à la science de se ranger à la portée du peuple.</text>
+            <source>
+                <title>Oeuvres complètes et Annexes</title>
+            </source>
+        </version>
+      <author>Flaubert, Gustave</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1951">
+            <text>La monotonie du bureau leur devenait odieuse. Continuellement le grattoir et la sandaraque, le même encrier, les mêmes plumes et les mêmes compagnons! Les jugeant stupides, ils leur parlaient de moins en moins; cela leur valut des taquineries. Ils arrivaient tous les jours après l'heure, et reçurent des semonces.
+Autrefois, ils se trouvaient presque heureux. Mais leur métier les humiliait depuis qu'ils s'estimaient davantage; – et ils se renforçaient dans ce dégoût, s'exaltaient mutuellement, se gâtaient.</text>
+            <source>
+                <title>Bouvard et Pécuchet</title>
+            </source>
+        </version>
+      <version status="translation" lang="en" public-domain="1951">
+            <text>The monotony of the desk became odious to them. Always the eraser and the sandarac, the same inkstand, the same pens, and the same companions. Looking on the latter as stupid fellows, they talked to them less and less. This cost them some annoyances. They came after the regular hour every day, and received reprimands.
+Formerly they had been almost happy, but their occupation humiliated them since they had begun to set a higher value on themselves, and their disgust increased while they were mutually glorifying and spoiling each other.</text>
+            <source>
+                <title>Bouvard and Pécuchet, in: Complete Works, Vols. 9 and 10 [1904]</title>
+                <translator>Anonymous</translator>
+            </source>
+        </version>
+      <author>Flaubert, Gustave</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1951">
+            <text>Ils apprirent la métaphysique aux Grecs, la sorcellerie aux Persans, l'aruspicine aux Étrusques — et aux Romains, l'étamage du cuivre et le commerce des jambons.</text>
+            <source>
+                <title>Bouvard et Pécuchet</title>
+            </source>
+        </version>
+      <author>Flaubert, Gustave</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1969">
+            <text>Mit gutem Deutsch und schlechtem Französisch kommt man überall durch.</text>
+            <source>
+                <title>Der Stechlin</title>
+            </source>
+        </version>
+      <author>Fontane, Theodor</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="en-GB" public-domain="2010">
+            <text>Well, I always say that an overmastering passion is a good excuse for feelings.</text>
+            <source>
+                <title>The Good Soldier</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="fr-DE" public-domain="2010">
+            <text>Alors, je dit toujours qu'une passion très forte est une bonne excuse pour sentiments.</text>
+            <source>
+                <title>Le Bon Soldat</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Ford, Ford Maddox</author>
+   </quote>
+   <quote genre="politics-and-society">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>Les ligues défensives sont donc justes et nécessaires, quand il s'agit véritablement de prévenir und trop grande puissance qui seroit en état de tout envahir. Cette puissance supérieure n'est donc pas en droit de rompre la paix avec les autres Etats inférieurs, précisément à cause de leur ligue défensive; car ils sont en droit et en obligation de la faire.</text>
+            <source>
+                <title>Directions pour la conscience d'un roi</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1867">
+            <text>Alle Vertheidigungsbündniße ſind also gerecht und nothwendig, wenn es wirklich darauf ankommt, einer zu grossen Macht zuvorzukommen, die im Stande wäre, Alles anzufallen. Diese größere Macht hat kein Recht, den Frieden mit schwächeren Staaten zu brechen; gegentheils haben diese ein Recht, dem Bruch zuvorzukommen und sich unter einander zur Vertheidigung zu verbünden.</text>
+            <source>
+                <title>Fenelons Gewißensleitung eines Königs</title>
+                <translator>Herder, Johann Gottfried</translator>
+            </source>
+        </version>
+      <author>Fénelon, François</author>
+   </quote>
+   <quote genre="drama">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>So schreitet in dem Bretterhaus
+den ganzen Kreis der Schöpfung aus
+und wandelt mit bedächt'ger Schnelle
+vom Himmel durch die Welt zur Hölle</text>
+            <source>
+                <title>Faust</title>
+                <idref>1088</idref>
+            </source>
+        </version>
+      <author>Goethe, Johann Wolfgang von</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Das Buch, das wir am eifrigsten wünschten, ist nicht zur Hand, und gerade was wir am meisten bedürfen, ist vergessen.</text>
+            <source>
+                <title>Die Wahlverwandtschaften</title>
+            </source>
+        </version>
+      <author>Goethe, Johann Wolfgang von</author>
+   </quote>
+   <quote genre="drama">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Vielen
+Frauen ist ein Weichling erwünscht, wie Anchises, der blonde,
+Oder Endymion gar, der nur als Schläfer geliebt ward.</text>
+            <source>
+                <title>Achilleis</title>
+                <page>528</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1867">
+            <text>There are women
+Many who wish for a delicate man, as Anchises, the fair one,
+Or as ev'n Endymion, who was beloved as he slumbered.</text>
+            <source>
+                <title>Goethe's Reineke Fox, West-Eastern Divan, and Achilleid</title>
+                <page>365</page>
+                <translator>Rogers, Alexander</translator>
+            </source>
+        </version>
+      <author>Goethe, Johann Wolfgang von</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="ru-RU" public-domain="1923">
+            <text>Да, чего, чего не делает иногда человек у себя перед зеркалом, когда красив или думает, что красив, а знает — никто не подсматривает за ним в замочную скважину.</text>
+            <source>
+                <title>Мёртвые души</title>
+            </source>
+        </version>
+      <author>Gogol', Nikolaj</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-CH" public-domain="1925">
+            <text>Viel las er nicht, aber es war nicht öde in seiner Seele. [...] Er hatte Schätze gesammelt, als er bei guten Kräften gewesen, an diesen Schätzen nagte der Tod nicht.</text>
+            <source>
+                <title>Hans Joggeli, der Erbvetter</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1925">
+            <text>He didn't read mich, but his soul was not barren. [...] He had collected treasures, when he was in good health, and death doesn't gnaw at those treasures.</text>
+            <source>
+                <title>Hans Joggeli, the cousin heir</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Gotthelf, Jeremias</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1934">
+            <text>Und Aventin leitet schon merkwürdig den Namen der Germanen von germinare, auswachsen, ab, weil die Deutschen auf den Bäumen gewachsen sein sollen.</text>
+            <source>
+                <title>Deutsche Sagen. Zweiter Band</title>
+                <idref>1163</idref>
+                <page>62</page>
+            </source>
+        </version>
+      <author>Grimm, Jacob</author>
+      <author>Grimm, Wilhelm</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>wier werden müßen in Aschen, in gemeinen staub, Der von vngelehrten füssen zertretten, in aschen die von beurischen henden zerstreuet, in Erden vnd leim, der von würmen und Säwen verzehret werden soll, verwandelt werden.</text>
+            <source>
+                <title>Dichterhandschriften von Martin Luther bis Sarah Kirsch</title>
+                <idref>3798</idref>
+                <page>30</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>we will have to be transformed into Ashes, into common dust that is scrunched by uneducated feet, into ashes spread by peasant hands, into Soil and paste, supposed to be eaten by worms and sows.</text>
+            <source>
+                <title>Human Life's Dream</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Gryphius, Andreas</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="cs-CZ" public-domain="1994">
+            <text>Potom bylo obvyklé „Dreimal hoch!“a vojsko nasedlo opět do vlaku, jaksi zaraženo. Místo patnácti deka ementálského sýra mají na krku válku s Itálií.</text>
+            <source>
+                <!-- Kapitel: V Budapešti, Ende des ersten Abschnitts -->
+                <title>Osudy dobrého vojáka Švejka</title>
+            </source>
+        </version>
+      <author>Hašek, Jaroslav</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fa-IR" public-domain="2022">
+            <text>یابوهای تب لازمی که سرفه‌های عمیق خشک می‌کنند و دستهای خشکیده آنها منتهی بسم شده، مثل اینکه مطابق یک قانون وحشی دستهای آنها را بریده و در روغن داغ فرو کرده‌اند و دو طرفشان لش گوسفند آویزان شده؛ جلو دکان میآوردن. مرد قصاب دست چرب خود را بریش حنا بسته اش می‌کشد، اول لاشه گوسفندها را با نگاه خریداری ورانداز می‌کند، بعد دو تا از آنها را انختاب می‌کند، دنبه آنها را با دستش وزن می‌کند، بعد می‌برد و به چنگک دکانش می‌آویزد - یابوها نفس زنان براه می‌افتند. آنوقت قصاب این جسدهای خون آلود را با گردن‌ها بریده، چشمهای رک زده و پلکهای خون آلود که زا میان کاسه سر کبودشان در آمده است نوازش می‌کند، دست مالی می‌کند، بعد یک گز لیک دسته استخوانی برمیدارد تن آنها را بدقت تکه تکته می‌کند و گوشت لخم را با تبسم بمشتریانش می‌فروشد.</text>
+            <source>
+                <title>بوف کور</title>
+            </source>
+        </version>
+      <author>Hedayat, Sadeq</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Die katholische Kirche hat sich von der Wissenschaft losgesagt, sich ihr feindlich gegenübergestellt. In der katholischen Kirche hat sich die Kunst aufgetan, aber das freie Denken hat sich davon geschieden. In Bruno und Vanini hat sie sich dagegen gerächt, und das freie Denken ist insofern von der katholischen Kirche geschieden und ist ihr fremd geblieben.</text>
+            <source>
+                <title>Vorlesungen zur Geschichte der Philosophie</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1909">
+            <text>Art developed in the Catholic Church, but free thought broke off from, and remained alien to it. In Bruno and Vanini the Church took her revenge for this; she renounced science, and took up a position of hostility to it.</text>
+            <source>
+                <title>Hegel's Lectures on the History of Philosophy, Volume 1</title>
+                <page>139</page>
+                <translator>Haldane, Elizabeth Sanderson</translator>
+                <translator>Simson, Frances H.</translator>
+            </source>
+        </version>
+      <author>Hegel, Georg Wilhelm Friedrich</author>
+   </quote>
+   <quote genre="politics-and-society">
+      <version status="original" lang="de-DE" public-domain="1927">
+            <text>Obgleich man behauptet, daß der Katholizismus eine passende Religion sei für so unglückliche Zeiten, wie die jetzigen, so wollen doch die Franzosen sich nicht mehr dazu bequemen, aus Furcht, sie würde diese Krankheitsreligion alsdann auch in glücklichen Tagen behalten müssen.</text>
+            <source>
+                <title>Französische Zustände (zit. n. Dolf Oehler / Elke Schmitter: „Heinrich Heine. Poesie und Politik“)</title>
+                <idref>1281</idref>
+                <page>65</page>
+            </source>
+        </version>
+      <author>Heine, Heinrich</author>
+   </quote>
+   <quote genre="politics-and-society">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Eben weil der gewaltsame Krieg alles Recht, weil er Vernunft und gemeinsame Convenienz, wie das Wohl der Staaten selbst aufhebt. Wer sein Recht nicht anders als durch die Faust beweisen kann, hat gewiß Unrecht. Wer den Ausspruch der Vernunft aus Mörsern erwartet, trägt in seinem obern Runde wenig Vernunft mit sich.</text>
+            <source>
+                <title>Begebenheiten und Charaktere des vergangenen Jahrhunderts: 1. Erbfolgekrieg (in: Adrastea, Erstes Stück)</title>
+            </source>
+        </version>
+      <author>Herder, Johann Gottfried</author>
+   </quote>
+   <quote genre="linguistics">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Man nennet eine bekannte Blume <em>pensée</em>, eine andre <em>Vergiß mein nicht</em>; mehreren Sprachen ist also die Aehnlichkeit zwischen Gedanken und Blumen geläufig. Und wie sollte sie es nicht seyn, da Gedanken und Blumen blühn und verblühen, sich aber im Schoos der Natur unaufhörlich fortpflanzen?</text>
+            <source>
+                <title>Früchte aus den sogenannt-goldenen Zeiten des achtzehnten Jahrhunderts (in: Adrastea, drittes Stück)</title>
+            </source>
+        </version>
+      <author>Herder, Johann Gottfried</author>
+   </quote>
+   <quote genre="linguistics">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Die Engländer rühmen ihre Sprache, daß sie vermittelst ihres Hermaphrodite-Artikels <em>the</em> das Weib in den Mann, den Mann in das Weib einkleiden könne; wir beneiden ihr diesen Zauberstab nicht. Einst nannte auch unsere Sprache alles <em>de</em> (de Sonne, de Mond;) wir danken es der Muse, daß sie die Geschlechter schied und ein höheres Das Geschlechtlos ins Heiligthum stellte. Jedes Bild kündigt hiemit durch den Artikel sein Geschlecht selbst an; seine Vorstellung gewinnt durch diese bestimmte Form <em>Klarheit</em>.</text>
+            <source>
+                <title>Früchte aus den sogenannt-goldenen Zeiten des achtzehnten Jahrhunderts (in: Adrastea, drittes Stück)</title>
+            </source>
+        </version>
+      <author>Herder, Johann Gottfried</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Unser Wissen ist Vermuten und unser Tun ist Streben.</text>
+            <source>
+                <title>Biographie</title>
+            </source>
+        </version>
+      <author>Hippel, Theodor Gottlieb</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Die Wochentage bin ich Jurist und höchstens etwas Musiker, Sonntags am Tage wird gezeichnet und Abends bin ich ein sehr witziger Autor bis spät in die Nacht.</text>
+            <source>
+                <title>Briefe an Hippel</title>
+            </source>
+        </version>
+      <author>Hoffmann, Ernst Theodor Amadeus</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1911">
+            <text>Alle Menschen sind Lügner, nur mehr oder weniger entwickelte. Die sogenannten tugendhaften und edlen Charaktere haben nur nicht den Verstand zur echten und vollkommenen Lüge.</text>
+            <source>
+                <title>Münchhausen</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1911">
+            <text>All people are liars, though more or less developed ones. The so-called virtuous and noble characters just don't have their minds prepared for the real and perfect lie.</text>
+            <source>
+                <title>Münchhausen</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Immermann, Karl Leberecht</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Du ausgehöhlter Hohlbohrer voller Herzen! Ausgeblasenes Lerchen-Ei, aus dem nie das Schicksal ein vollschlagendes, auffliegendes, freudentrunknes Herz ausbrüten kann! Sage, was du willst, denn ich schreibe, was ich will!</text>
+            <source>
+                <title>Geschichte meiner Vorrede zur zweiten Auflage des Quintus Fixlein</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>You hollowed out hollow drill full of hearts! Blowed lark egg, which fate can never hatch a fully beating, upsoaring, happiness-imbued heart from! Say what you want, because I write, what I want!</text>
+            <source>
+                <title>History of my preface to the second edition of Quintus Fixlein</title>
+            </source>
+        </version>
+      <author>Jean Paul</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="de-AT" public-domain="1995">
+            <text>Das Buch muß die Axt sein für das gefrorene Meer in uns.</text>
+            <source>
+                <title>Brief an Oskar Pollak, Briefe 1902-1924</title>
+            </source>
+        </version>
+      <author>Kafka, Franz</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-AT" public-domain="1995">
+            <text>Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.</text>
+            <source>
+                <title>Die Verwandlung</title>
+            </source>
+        </version>
+      <author>Kafka, Franz</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Viele Menschen sind unglücklich, weil sie nicht abstrahieren können. Der Freier könnte eine gute Heurat machen, wenn er nur über eine Warze im Gesicht oder eine Zahnlücke seiner Geliebten wegsehen könnte.</text>
+            <source>
+                <title>Anthropologie in pragmatischer Hinsicht</title>
+            </source>
+        </version>
+      <author>Kant, Immanuel</author>
+   </quote>
+   <quote genre="linguistics">
+      <version status="original" lang="la-BE" public-domain="1867">
+            <text>Quot linguas quis callet, tot homines valet.</text>
+            <source>
+                <title>unknown</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1993">
+            <text>So viele Sprachen Einer kann, so viele Mal ist er Mensch.</text>
+            <source>
+                <title>Vereinzelte, jedoch systematisch geordnete Gedanken über vielerlei Gegenstände</title>
+                <translator>Schopenhauer, Arthur</translator>
+            </source>
+        </version>
+      <author>Karl V.</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="dk-DK" public-domain="1926">
+            <text>Msk. gjør aldrig næsten Brug af de Friheder det har, saaledes fE af Tænkefriheden; istedet derfor fordrer man til Vederlag Yttringsfriheden.</text>
+            <source>
+                <title>Journalen FF 1836-1838</title>
+                <page>143</page>
+            </source>
+        </version>
+      <author>Kierkegaard, Søren</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="dk-DK" public-domain="1926">
+            <text>Thi at være en skikkelig Mand i en ond Verden saaledes at den onde Verden anseer en for en skikkelig Mand, er eo ipso at være paa een eller | anden Maade en uskikkelig; og at skjule sig saa godt som muligt for at faae Lov til at leve godt i en ond Verden, er at være Medskyldig, er at unddrage sig det Godes Tjeneste.</text>
+            <source>
+                <title>Journalen NB29</title>
+                <page>35</page>
+            </source>
+        </version>
+      <author>Kierkegaard, Søren</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="dk-DK" public-domain="1926">
+            <text>Intet Dyr er saa frugtbart som Vrøvl; kun at Vrøvlet kaster 100,000, Millioner Unger – som alle see forskjelligt ud, men dog ere det samme Vrøvl.</text>
+            <source>
+                <title>Journalen NB29</title>
+                <page>72</page>
+            </source>
+        </version>
+      <author>Kierkegaard, Søren</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="dk-DK" public-domain="1926">
+            <text>Hemme|ligheden i Livet, naar man vil staae sig godt, er: dygtig Sludder om hvad man vil og hvorledes man forhindres – og saa ingen Handling.</text>
+            <source>
+                <title>Journalen NB1</title>
+                <page>18</page>
+            </source>
+        </version>
+      <author>Kierkegaard, Søren</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1914">
+            <text>Die Deutschen versuchten, castilisch zu reden, die Hispanier deutsch. [...] Man half sich gegenseitig ein, nichts andres beachtend als den guten Willen des Gefährten, dem Gefährten in dessen eigener Sprache näherzukommen.</text>
+            <source>
+                <title>Die beiden Hauptleute</title>
+            </source>
+        </version>
+      <author>La Motte Fouqué, Friedrich de</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Nachher machte mein Vater mich früh die Bücher lieben, da er mich oft, ehe ich volle zwei Jahre war, in seine Bibliothek trug, wo er mich mit den schönen Verzierungen der Einbände und Titelblätter zu belustigen suchte, und es auch damit soweit brachte, daß ich mit 3 Jahren vollkommen lesen konnte.</text>
+            <source>
+                <title>Lebensabriß in Melusines Sommer</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>Later my father made me love books from early childhood on, as he used to carry me, before I had turned two years old, into his library where he tried to entertain me with the beautiful ornaments of the covers and title pages, and with these efforts had achieved that I could read by the age of three.</text>
+            <source>
+                <title>Melusine's Summer Evenings</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>La Roche, Sophie von</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>[...] car la sincérité me touche d'une telle sorte, que je crois que, si ma maîtresse et même ma femme m'avouait que quelqu'un lui plût, j'en serais affligé sans en être aigri; je quitterais le personnage d'amant ou de mari, pour la conseiller et pour la plaindre.</text>
+            <source>
+                <title>Oeuvres complètes de mesdames de la Fayette</title>
+                <page>75</page>
+            </source>
+        </version>
+      <author>Lafayette, Marie-Madeleine de</author>
+   </quote>
+   <quote genre="travelogue">
+      <version status="original" lang="en-GB" public-domain="1947">
+            <text>One night, during a meeting of darweeshes of his order, at which their Sheykh was present, my friend became affected with religious frenzy, seized a tall glass shade which surrounded a candle placed on the floor, and ate a large portion of it. The Sheykh and the other darweeshes, looking at him with astonishment, upbraided him having broken the institutes of his order since the eating of glass was not among the miracles which they were allowed to perform; and they immediately expelled him. He then entered the order of the Ahmedeeyeh; and as they, likewise, never ate glass, he determined not to do so again.</text>
+            <source>
+                <title>An Account of the Manners and Customs of the Modern Egyptians</title>
+                <page>XVII</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="de-DE" public-domain="1947">
+            <text>Eines abends, während eines Treffens der Derwische seines Ordens, bei welchem der Scheich zugegen war, wurde mein Freund von einem religiösen Wahn befallen, ergriff eine hohe gläserne Glocke, die eine auf dem Boden aufgestellte Kerze schützte, und aß eines großen Teil derselben auf. Der Scheich und die anderen Derwische schauten ihn erstaunt an und rügten ihn dafür, dass er die Ordensregeln gebrochen habe, weil das Essen von Glas nicht zu den Wundern gehörte, die ihnen zu praktizieren erlaubt war; sie exkommunizierten ihn umgehend. Er trat daraufhin in den Ahmediyeh-Orden ein; dort aß man ebenfalls niemals Glas, so dass er gelobte, dies nie wieder zu tun.</text>
+            <source>
+                <title>Ein Bericht über die Gepflogenheiten und Bräuche der modernen Ägypter</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Lane, William Edward</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="zh-CN" public-domain="1867">
+            <text>知人者智，自知者明。勝人者有力，自勝者強。知足者富。</text>
+            <source>
+                <title>道德經, 33</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="2020">
+            <text>Andere Kennender ist gut,
+Sich selbst Kennender ist erleuchtet.
+Andere Besiegender hat Kraft,
+Sich selbst Besiegender ist stark.</text>
+            <source>
+                <title>Tao-te-king</title>
+                <idref>1759</idref>
+                <translator>Rousselle, Erwin</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1968">
+            <text>He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty. He who is satisfied with his lot is rich,</text>
+            <source>
+                <title>Daodejing, 33</title>
+                <translator>Legge, James</translator>
+            </source>
+        </version>
+      <author>Laozi</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" public-domain="1908" lang="it-IT">
+            <text>Oltracciò il commune è bensi illuminato e riflessivo al di d'oggi, ma non profondo, e sebbene la politica domanda forse maggior profondità di lumi e di riflessioni che la morale, contuttociò il suo aspetto e superficie offre un campo più facile agl'intelletti volgari, e generalmente la politica si presta davantaggio ai sogni alle chimere alle fanciullaggini. Finalmente il volgo preferisce il brillante e il vasto al solido ed utile, ma in certo modo più ristretto e meno nobile, perchè la morale spetta all'individuo, e la politica alla nazione e al mondo.</text>
+            <source>
+                <title>Lo Zibaldone</title>
+                <page>311-12</page>
+            </source>
+        </version>
+      <author>Leopardi, Giacomo</author>
+   </quote>
+   <quote genre="culture-studies">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Wenn Götter einander mit Steinen werfen, so müssen diese Steine auch die Götter beschädigen können, oder wir glauben mutwillige Buben zu sehen, die sicht mit Erdklößen bewerfen.</text>
+            <source>
+                <title>Laokoon</title>
+                <page>81</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1956">
+            <text>When the gods throw stones at each other, either these stones must injure the gods, or we imagine that we see only naughty boys who are pelting each other with lumps of earth.</text>
+            <source>
+                <title>Laocoon</title>
+                <page>133</page>
+                <translator>Phillimore, Robert Joseph</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-US" public-domain="1973">
+            <text>If gods throw stones at one another, the stones must be able to hurt them, or they are like silly boys pelting each other with earth.</text>
+            <source>
+                <title>Laocoon: An Essay upon the Limits of Painting and Poetry</title>
+                <page>227</page>
+                <translator>Frothingham, Ellen</translator>
+            </source>
+        </version>
+      <author>Lessing, Gotthold Ephraim</author>
+   </quote>
+   <quote genre="politics-and-society">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Das Schwert soll kein Christ für sich und seine Sache führen noch anrufen; doch für einen andern kann und soll er's führen und anrufen, damit der Bosheit gesteuert und die Rechtschaffenheit geschützt werden.</text>
+            <source>
+                <title>Von weltlicher Obrigkeit, wie weit man ihr Gehorsam schuldig sei</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-US" public-domain="1950">
+            <text>[A Christian should] in nothing make use of secular power and law for himself. For others, however, he may and should seek vengeance, justice, protection and help, and do what he can toward this.</text>
+            <source>
+                <title>Temporal authority</title>
+                <translator>Schindel, Jeremiah J.</translator>
+                <translator>Brandt, Walther I.</translator>
+            </source>
+        </version>
+      <author>Luther, Martin</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="pt-BR" public-domain="1979">
+            <text>D. Evarista mentiu às esperanças do Dr. Bacamarte, não lhe deu filhos robustos nem mofinos. [... Ele] acabou por aconselhar à mulher um regímen alimentício especial. À ilustre dama, nutrida exclusivamente com a bela carne de porco de Itaguaí, não atendeu às admoestações do esposo; e à sua resistência, – explicável, mas inqualificável, – devemos a total extinção de dinastia dos Bacamartes.</text>
+            <source>
+                <title>O alienista</title>
+            </source>
+        </version>
+      <author>Machado de Assis, Joaquim Maria</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="pt-BR" public-domain="1979">
+            <text>O passeio nas ruas, mormente nas de recreio e parada, é utilíssimo, com a condição de não andares desacompanhado, porque a solidão é oficina de ideias, e o espírito deixado a si mesmo, embora no meio da multidão, pode adquiri uma tal ou qual atividade.</text>
+            <source>
+                <title>Teoria do medalhao</title>
+            </source>
+        </version>
+      <author>Machado de Assis, Joaquim Maria</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="it-IT" public-domain="1944">
+            <text>[G]iacché è uno de' vantaggi di questo mondo, quello di poter odiare ed esser odiati, senza conoscersi.</text>
+            <source>
+                <title>I promessi sposi</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1944">
+            <text>[F]or it is a singular advantage of this world, that men may hate and be hated without knowing each other.</text>
+            <source>
+                <title>The Betrothed</title>
+                <page>30</page>
+                <translator>Anonymus</translator>
+            </source>
+        </version>
+      <author>Manzoni, Alessandro</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="en-US" public-domain="1962">
+            <text>Methinks we have hugely mistaken this matter of Life and Death. Methinks that what they call my shadow here on earth is my true substance. Methinks that in looking at things spiritual, we are too much like oysters observing the sun through the water, and thinking that thick water the thinnest of air.</text>
+            <source>
+                <title>Moby-Dick, or The Whale</title>
+                <page>40</page>
+            </source>
+        </version>
+      <author>Melville, Herman</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="en-US" public-domain="1962">
+            <text>But no doubt the first man that ever murdered an ox was regarded as a murderer; perhaps he was hung; and if he had been put on his trial by oxen, he certainly would have; and he certainly deserved it if any murderer does. Go to the meat-market of a Saturday night and see the crowds of live bipeds staring up at the long rows of dead quadrupeds.Does not that sight take a tooth out of the cannibal's jaw? Cannibals? who is not a cannibal? I tell you it will be more tolerable for the Fejee that salted down a lean missionary in his cellar against a coming famine; it will be more tolerable for that provident Fejee, I say, in the day of judgment, than for thee, civilized and enlightened gourmand, who nailest geese to the ground and feastest on their bloated livers in thy paté-de-foie-gras.</text>
+            <source>
+                <title>Moby-Dick, or The Whale</title>
+                <page>335</page>
+            </source>
+        </version>
+      <author>Melville, Herman</author>
+   </quote>
+   <quote genre="travelogue">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>N'est-ce point déclarer qu'on est indigne d'avoir un ami, que d'appeller amis quarante personnes?</text>
+            <source>
+                <title>Tableau de Paris</title>
+                <page>397-398</page>
+            </source>
+        </version>
+      <author>Mercier, Louis-Sébastien</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-AT" public-domain="2013">
+            <text>Wenn Ulrich hätte sagen sollen, wie er eigentlich sei, er wäre in Verlegenheit geraten, denn er hätte sich so wie viele Menschen noch nie anders geprüft als an einer Aufgabe und im Verhältnis zu ihr.</text>
+            <source>
+                <title>Der Mann ohne Eigenschaften</title>
+            </source>
+        </version>
+      <author>Musil, Robert</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-AT" public-domain="2013">
+            <text>"Blech reden" ist ein mit Genie erfundenes Wort. Es enthält: das Glänzende, das nicht Gold ist; den durchdringend unangenehmen Klang; das Lebhafte, das Auswalzbare. Würde man "Blech schreiben" sagen, wie viele wichtige zeitgenössische Erscheinungen liessen sich damit erklären! Aber der Gebrauch dieses Worts ist in Abnahme begriffen. Irgendwann wird es wie "Aar" und "hehr" sein. Spätere Schriftstellergenerationen werden dann in Festreden sagen: "Die Väter haben Blech geschrieben", und ein ungläubiger Schauer wird die Zuhörer ergreifen.</text>
+            <source>
+                <title>Nachlass VI/1/1</title>
+            </source>
+        </version>
+      <author>Musil, Robert</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="cs-CZ" public-domain="1962">
+            <text>Ať mně přijde Neruda ještě jednou s nějakou „povídkou malostranskou”!</text>
+            <source>
+                <title>Povídky malostranské</title>
+                <idref>3732</idref>
+                <page>246</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="de-DE" public-domain="1962">
+            <text>Dieser Neruda soll mir bloß noch mal mit so einer „Kleinseitner Geschichte” kommen!</text>
+            <source>
+                <title>Kleinseitner Geschichten</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Neruda,Jan</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Ich danke Gott mit Saitenspiel, das ich nicht Schiller Göthe worden. Ich wär geschmeichelt worden viel und wäre bald verdorben.</text>
+            <source>
+                <title>Briefe</title>
+            </source>
+        </version>
+      <author>Nicolai, Friedrich</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1971">
+            <text>Das Leben ist schwer zu tragen: aber so tut mir doch nicht so zärtlich! Wir sind allesamt hübsche lastbare Esel und Eselinnen.</text>
+            <source>
+                <title>Also sprach Zarathustra</title>
+                <idref>2272</idref>
+            </source>
+        </version>
+      <author>Nietzsche, Friedrich</author>
+   </quote>
+   <quote genre="">
+      <version status="original" lang="grc" public-domain="1867">
+            <text>εύναὶ δὲ παράτροποι ές κακότατ᾽ άθρόαν ἔβαλόν ποτε καὶ τὸν ἵκοντ᾽.</text>
+            <source>
+                <title>Pythia II.</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1867">
+            <text>Frevelnde Liebesgemeinschaft stürzt' oft auch gelingend ins Elend.</text>
+            <source>
+                <title>Wilhelm von Humboldt's gesammelte werke, Band 2 (1841)</title>
+                <page>293</page>
+                <translator>Humboldt, Wilhelm von</translator>
+            </source>
+        </version>
+      <author>Pindar</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Tâchez de garder toujours un morceau de ciel au-dessus de votre vie.</text>
+            <source>
+                <title>A la recherche du temps perdu (édition 1966)</title>
+                <page>68</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="cs-DE" public-domain="1993">
+            <text>Snažte se, aby vždy mějte kousek oblohy nad svým životem.</text>
+            <source>
+                <title>Hledání ztraceného času</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>M'écartant de l'éblouissante maison de «plaisir», insolemment dressée là malgré les protestations des familles inutilement adressées au maire, je rejoignis la falaise et j'en suivis les chemins sinueux dans la direction de Balbec. J'entendis sans y répondre l'appel des aubépines. Voisines moins cossues des fleurs de pommiers, elles les trouvaient bien lourdes, tout en reconnaissant le teint frais qu'ont les filles, aux pétales roses, de ces gros fabricants de cidre. Elles savaient que, moins richement dotées, on les recherchait cependant davantage et qu'il leur suffisait pour plaire d'une blancheur chiffonnée.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>Hurrying past the glittering house of 'pleasure', insolently erected there despite the protests which the heads of families had addressed in vain to the mayor, I reached the cliff and followed its winding paths in the direction of Balbec. I heard, without responding to it, the appeal of the hawthorns. Neighbours, in humbler circumstances, of the blossoming apple trees, they found them very coarse, without denying the fresh complexion of the rosy-petalled daughters of those wealthy brewers of cider. They knew that, with a lesser dowry, they were more sought after, and were attractive enough by themselves in their tattered whiteness.</text>
+            <source>
+                <title>In Search of Lost Time</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Les démarcations trop étroites que nous traçons autour de l’amour viennent seulement de notre grande ignorance de la vie.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="cs-DE" public-domain="1993">
+            <text>Příhliš úzké ohraničení které tvoříme okolo lásky pochází jen z naší velké neznalosti života.</text>
+            <source>
+                <title>Hledání ztraceného času</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>The hard and fast lines with which we circumscribe love arise solely from our complete ignorance of life.</text>
+            <source>
+                <title>In Search of Lost Time, Volume 2: Within a Budding Grove</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Une œuvre où il y a des théories est comme un objet sur lequel on laisse la marque du prix.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="translation" lang="cs-CZ" public-domain="1993">
+            <text>Umělecké dílo, které obsahuje teorie je jako objekt, na kterém cenovka ulpět.</text>
+            <source>
+                <title>Hledání ztraceného času</title>
+                <translator>http://celebrityquotes.ru/cs/view/65723</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Les trois quarts du mal des gens intelligents viennent de leur intelligence.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>Three-quarters of the ills from which intelligent people suffer spring from their intellect.</text>
+            <source>
+                <title>In the Shadow of Young Girls in Flower</title>
+                <page>159</page>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Tout cela me semble aussi loin de moi que possible, à moins que j'aie en moi des parties que j'ignore, car on se réalise que successivement.</text>
+            <source>
+                <title>À la recherche du temps perdu</title>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>La tristesse des hommes qui ont vieilli c'est de ne pas même songer à écrire de telles lettres dont ils ont appris l'inefficacité.</text>
+            <source>
+                <title>À l'ombre des jeunes filles en fleurs</title>
+                <page>58</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>The sadness of men who have grown old lies in their no longer even thinking of writing such letters, the futility of which their experience has shown.</text>
+            <source>
+                <title>Remembrance of Things Past</title>
+                <page>455</page>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <version status="unpublished" lang="cs-CZ" public-domain="1993">
+            <text>Smutek staříků je v tom, že ani myslejí na psaní takové dopisy, kterých neúčinnost se už poučili.</text>
+            <source>
+                <title>Hledání straceného času</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>De même nos intonations contiennent notre philosophie de la vie, ce que la personne se dit à tout moment sur les choses.</text>
+            <source>
+                <title>A la recherche du temps perdu, tome II: A L'ombre des jeunes filles en fleur</title>
+                <page>324</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>Similarly, our intonations embody our philosophy of life, what a person says to himself about things at any given moment.</text>
+            <source>
+                <title>In Search of Lost Time</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>En sorte que les étrangetés des gens charmants exaspèrent, mais qu'il n'y a guère de gens charmants qui ne soient, par ailleurs, étranges.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="cs-DE" public-domain="1993">
+            <text>Tak zvláštnosti okouzlujících lidí mohou rozčilit, ale je málo okouzlujících lidí, které jinak nejsou zvláštní.</text>
+            <source>
+                <title>Hledání ztraceného času</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>So that the oddities of charming people exasperate us, but there are few if any charming people who are not, at the same time, odd.</text>
+            <source>
+                <title>In Search of Lost Time, Vol. 4</title>
+                <page>393</page>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Si l'on emporte, quand on part en voyage, trois ou quatre images, qui du reste se perdront en route (les lys et les anémones du Ponte Vecchio, l'église persane dans les brumes, etc.), la malle est déjà bien pleine.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Je m'imaginais, comme tout le monde, que le cerveau des autres était un réceptacle inerte et docile, sans pouvoir de réaction spécifique sur ce qu'on y introduisait.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>I imagined, like everyone else, that the brains of other people were lifeless and submissive receptacles with no power of specific reaction to any stimulus which might be applied to them[.]</text>
+            <source>
+                <title>In Search of Lost Time</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Mais souvent on n'entend rien, si c'est une musique un peu compliquée qu'on écoute pour la première fois.</text>
+            <source>
+                <title>À la recherche du temps perdu, tome II</title>
+                <page>69</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="cs-DE" public-domain="1993">
+            <text>Ale často se nic rozumí, když se poprvé slyší trochu komplikovanou hudbu.</text>
+            <source>
+                <title>Hledání ztraceného času</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Or chaque jour était pour moi un pays différent.</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>But each day was for me a different country.</text>
+            <source>
+                <title>In Search of Lost Time</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Oui, j'ai été forcé d'amincir la chose et d'être mensonger, mais ce n'est pas un univers, c'est des millions, presque autant qu'il existe de prunelles et d'intelligences humaines, qui s'éveillent tous les matins.</text>
+            <source>
+                <title>À la recherche du temps perdu, vol. III</title>
+                <page>696</page>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1993">
+            <text>Aussi, voyez-vous, c'est plus «intelligent»; il ne faut jamais discuter le choix des amants</text>
+            <source>
+                <title>A la recherche du temps perdu</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2001">
+            <text>So you see it's wiser never to discuss other people's choices in love.</text>
+            <source>
+                <title>In Search of Lost Time, Volume III: The Guermantes Way</title>
+                <translator>Moncrieff, Charles Kenneth Scott</translator>
+                <translator>Kilmartin, Terence</translator>
+                <translator>Enright, D. J.</translator>
+            </source>
+        </version>
+      <author>Proust, Marcel</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="de-DE" public-domain="1981">
+            <text>Das ganze Geheimnis meiner Schreiberei liegt darin, daß ich mich [...] langweile und dazu aus der Not eine Tugend machen muß, um meine vier Mädchen durch die hungrige Welt zu füttern.</text>
+            <source>
+                <title>Briefe an Paul Heyse</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1981">
+            <text>The whole secret of my scribbling lies in the fact, that I am bored and furthermore have to make a virtue out of necessity to feed my four girls through a hungry world.</text>
+            <source>
+                <title>Letters to Paul Heyse</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Raabe, Wilhelm</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>Je vous prie par grace, vous aultres mes bons averlans, si d'icelles en trouvez que vaillent le desbraguetter, montez dessus et me les amenez.</text>
+            <source>
+                <title>Gargantua et Pantagruel, Livre I (Arvensa Editions, 2015)</title>
+                <page>17</page>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1963">
+            <text>Und deshalb bitte ich euch, liebe Kumpane, inständigst, so ihr dergleichen findet, die der Mühe werth sind, nur immer frisch darauf und führt sie mir auch zu.</text>
+            <source>
+                <title>Gargantua und Pantagruel</title>
+                <translator>Gelbcke, Ferdinand Adolf</translator>
+            </source>
+        </version>
+      <author>Rabelais, François</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1867">
+            <text>[...] et la quarte fut emportée des diables pour lyer Lucifer, qui se deschainoit en ce temps là, à cause d'une colique qui le tourmentait extraordinairement, pour ce qu'il avoit mengé l'ame d'ung sergent en fricassée à son dejeuner[.]</text>
+            <source>
+                <title>La seconde chronique de Gargantua et Pantagruel</title>
+                <page>67</page>
+            </source>
+        </version>
+      <author>Rabelais, François</author>
+   </quote>
+   <quote genre="poetry">
+      <version status="original" lang="de-AT" public-domain="1997">
+            <text>Sein Blick ist vom Vorübergehn der Stäbe
+so müd geworden, daß er nichts mehr hält.
+Ihm ist, als ob es tausend Stäbe gäbe
+und hinter tausend Stäben keine Welt.
+            
+Der weiche Gang geschmeidig starker Schritte,
+der sich im allerkleinsten Kreise dreht,
+ist wie ein Tanz von Kraft um eine Mitte,
+in der betäubt ein großer Wille steht.
+            
+Nur manchmal schiebt der Vorhang der Pupille
+sich lautlos auf —. Dann geht ein Bild hinein,
+geht durch der Glieder angespannte Stille —
+und hört im Herzen auf zu sein.</text>
+            <source>
+                <title>Der Panther</title>
+            </source>
+        </version>
+      <author>Rilke, Rainer Maria</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="de-AT" public-domain="2010">
+            <text>Ich kenne, glaube ich, die Welt nur, wenn ich schreibe, und wenn ich die Feder weglege, bin ich verloren. Der Alkohol ist keine Ursache sondern Folge.</text>
+            <source>
+                <title>Briefe</title>
+            </source>
+        </version>
+      <author>Roth, Joseph</author>
+   </quote>
+   <quote genre="travelogue">
+      <version status="original" lang="en-IE" public-domain="1978">
+            <text>The fact is, I fear that the favourites of heaven ‒ the civilizers of the world ‒ la <em>race blanche</em> of my friend the doctor, are naturally the most intolerant in the world.</text>
+            <source>
+                <title>My Diary in India, in the Year 1858-59</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="fr-DE" public-domain="1978">
+            <text>Le fait est, je crains que les favoris des cieux - les civilisateurs du monde - la <em>race blanche</em> de mon ami le docteur, sont naturellement les plus intolérants dans le monde.</text>
+            <source>
+                <title>Mon journal en Inde, dans les années 1858-59</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Russell, William Howard</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="2015">
+            <text>„Où sont les hommes?“ reprit enfin le petit prince. „On est un peu seul dans le désert...“
+„On est seul aussi chez les hommes“, dit le serpent.</text>
+            <source>
+                <title>Le petit prince</title>
+                <idref>2563</idref>
+                <page>52</page>
+            </source>
+        </version>
+      <author>Saint-Exupéry, Antoine de</author>
+   </quote>
+   <quote genre="drama">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Ich wünschte zur Ehre der Menschheit, dass ich hier nichts denn Karikaturen geliefert hätte, muss aber gestehen, so fruchtbarer meine Weltkenntnis wird, so ärmer wird mein Karikaturenregister.</text>
+            <source>
+                <title>Unterdrückte Vorrede zu „Die Räuber“</title>
+            </source>
+        </version>
+      <version status="unpublished" lang="zh-CN" public-domain="1867">
+            <text>我希望，这里所呈现的不只是一幅有关人性的漫画。得承认，我们对世界了解越多，漫画就不再像漫画。</text>
+            <source>
+                <title>那谁的博客 - 2016年3月26日</title>
+                <translator>Fu, Kin Wong</translator>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>I wish for the sake of mankind's honour that I provided nothing but caricatures here, but I must admit, the richer my knowledge of the world gets, the poorer my register of caricatures gets.</text>
+            <source>
+                <title>Suppressed preface to "The Robbers", 1781</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Schiller, Friedrich von</author>
+   </quote>
+   <quote genre="culture-studies">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Ja was will man einwenden, wenn ein Übersetzer dem Leser sagt, Hier bringe ich dir das Buch, wie der Mann es würde geschrieben haben, wenn er es deutsch geschrieben hätte; und der Leser ihm antwortet, Ich bin dir ebenso verbunden, als ob du mir des Mannes Bild gebracht hättest, wie er aussehen würde, wenn seine Mutter ihn mit einem andern Vater gezeugt hätte?</text>
+            <source>
+                <title>Über die verschiedenen Methoden des Übersetzens</title>
+                <page>65</page>
+            </source>
+        </version>
+      <author>Schleiermacher, Friedrich Daniel</author>
+   </quote>
+   <quote genre="culture-studies">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Wir reden zu wenig und plaudern verhältnismäßig zu viel.</text>
+            <source>
+                <title>Über die verschiedenen Methoden des Übersetzens</title>
+                <page>70</page>
+            </source>
+        </version>
+      <author>Schleiermacher, Friedrich Daniel</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1931">
+            <text>Zwang ist der unzertrennliche Gefährte jeder Gesellschaft, und jede fordert Opfer, die um so schwerer fallen, je bedeutender die eigene Individualität.</text>
+            <source>
+                <title>Parerga und Paralipomena. Erster Band. Aphorismen zur Lebensweisheit. Kapitel 5: Paränesen und Maximen</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1999">
+            <text>Constraint is always present in society, like a companion of whom there is no riddance; and in proportion to the greatness of a man's individuality, it will be hard for him to bear the sacrifices which all intercourse with other demands, Solitude will be welcomed or endured or avoided[.]</text>
+            <source>
+                <title>Counsels and Maxims</title>
+                <translator>Saunders, Thomas Bailey</translator>
+            </source>
+        </version>
+      <author>Schopenhauer, Arthur</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1931">
+            <text>Wer kein Latein versteht, gehört zum Volke, auch wenn er ein großer Virtuose auf der Elektrisiermaschine wäre und das Radikal der Flußspathsäure im Tiegel hätte.</text>
+            <source>
+                <title>Über Sprache und Worte (Parerga und Paralipomena XXV §309)</title>
+                <page>106</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1999">
+            <text>If a man knows no Latin, he belongs to the vulgar, even though he be a great virtuoso on the electrical machine and have the base of hydrofluoric acid in his crucible.</text>
+            <source>
+                <title>The Art of Literature</title>
+                <translator>Saunders, Thomas Bailey</translator>
+            </source>
+        </version>
+      <author>Schopenhauer, Arthur</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="de-DE" public-domain="1931">
+            <text>Demgemäß liegt, bei Erlernung einer Sprache, die Schwierigkeit vorzüglich darin, jeden Begriff, für den sie ein Wort hat, auch dann kennen zu lernen, wann die eigene Sprache kein diesem genau entsprechendes Wort besitzt; welches oft der Fall ist. Daher also muß man, bei Erlernung einer fremden Sprache, mehrere ganz neue Sphären von Begriffen in seinem Geiste abstecken: mithin entstehen Begriffssphären wo noch keine waren.</text>
+            <source>
+                <title>Über Sprache und Worte (Parerga und Paralipomena XXV §309)</title>
+                <page>108</page>
+            </source>
+        </version>
+      <author>Schopenhauer, Arthur</author>
+   </quote>
+   <quote genre="travelogue">
+      <version status="original" lang="de-DE" public-domain="1867">
+            <text>Das Kreuz verhält sich zum Galgen wie die Mönche zu den Soldaten, die ersten sind die Instrumente und die zweiten die Handlanger der geistlichen und weltlichen Despotie, die permanente Guillotine der Vernunft. Christus hat gewiß seiner Religion keinen so jämmerlichen Anstrich geben wollen, als sie nachher durch ihre unglücklichen Bonzen bekommen hat.</text>
+            <source>
+                <title>Spaziergang nach Syrakus im Jahre 1802</title>
+            </source>
+        </version>
+      <author>Seume, Johann Gottfried</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-DE" public-domain="1939">
+            <text>Wer viel reiset, lernt schon die Menschen schonen, und läßt sie in dem inneren Haushalte ihres Lebens gewähren, der sich nicht aufschließt, wenn es nicht freiwillig ist.</text>
+            <source>
+                <title>Brigitta</title>
+                <idref>2876</idref>
+            </source>
+        </version>
+      <author>Stifter, Adalbert</author>
+   </quote>
+   <quote genre="philosophy">
+      <version status="original" lang="se-SE" public-domain="1983">
+            <text>Nu vet jag varför de unga hållas kvar i denna inbillning, att de äro överlägsna därför att de kunna lura. Jo, det finnes gamle vise, som gå och kvitta med livet, och därför anse som en plikt att låta lura sig, då och då. »Låta lura sig med smak.» Ungdom är bara ett begrepp, en abstraktion, en vattvälling att skryta med, ett kriaämne, en sång, ett skåltal.</text>
+            <source>
+                <title>En blå bok (Samlade skrifter 46)</title>
+                <page>55-56</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-US" public-domain="1912">
+            <text>I know, moreover, why the young obstinately imagine they are superior because they can deceive. There are old wise men who have come to terms with life, and therefore think it a duty to let themselves be deceived now and then; they let themselves be deceived tastefully. 'Youth is only an idea, an abstraction, a boast, a theme for an essay, a song, a toast!'"</text>
+            <source>
+                <title>Zones of the Spirit: A Book of Thoughts</title>
+                <page>54-55</page>
+                <translator>Field, Claud</translator>
+            </source>
+        </version>
+      <author>Strindberg, August</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="se-SE" public-domain="1912">
+            <text>Eller menar du att moralen bör vara som ett akrobatnummer på cirkus: ju svårare, desto bättre?</text>
+            <source>
+                <title>Generalkonsulns middagar (in: Främlingarna)</title>
+                <page>127</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="1912">
+            <text>Or do you think, ethics must be like an acrobat's performance: the harder, the better?</text>
+            <source>
+                <title>The Consul-General at the palace ball</title>
+                <translator>Weber, Kai</translator>
+            </source>
+            <!--  Published English version available: The Consul-General at the palace ball, 
+        			transl. by Lofmark in Söderberg, "Short Stories", 1987 -->
+        </version>
+      <author>Söderberg, Hjalmar</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="ru-RU" public-domain="1999">
+            <text>Люди как реки: вода во всех одинакая ивезде одна и та же, нокаждая река бывает то узкая,то быстрая, то широкая, то тихая, то чистая,то холодная, томутная, то теплая.</text>
+            <source>
+                <title>Воскресение</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1999">
+            <text>Menschen sind wie Flüsse: das Wasser ist in allen das gleiche und ein und dasselbe, aber jeder Fluß ist einmal schmal und einmal breit, einmal still, einmal rein, einmal kalt, einmal trübe, einmal warm.</text>
+            <source>
+                <title>Auferstehung</title>
+                <idref>2961</idref>
+                <translator>Hirschfeld, Vera</translator>
+            </source>
+        </version>
+      <author>Tolstoj, Lev Nikolaevič</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="translation" lang="de-DE" public-domain="1999">
+            <text>„Am 7. Juli 1857 sang in Luzern vor dem Hotel Schweizer Hof, in dem die reichsten Leute absteigen, ein umherzieheneder armer Sänger eine halbe Stunde lang Lieder und spielte dazu auf der Gitarre. Ungefähr hundert Menschen hörten ihm zu. Der Sänger wandte sich dreimal an alle mit der Bitte, ihm etwas zu geben. Niemand hat ihm das Geringste gegeben, und viele lachten ihn aus.“
+[...]
+Das ist ein Ereignis, das die Geschichtsschreiber unserer Zeit mit unauslöschlicher Flammenschrift aufzeichnen müßten. Dieses Ereignis ist bedeutsamer, ernster und hat einen tieferen Sinn als alle die Tatsachen, die in Zeitungen und Geschichtsbüchern stehen. Daß die Engländer noch tausend Chinesen mehr getötet haben, weil die Chinesen nichts für Geld kaufen, ihr Land aber die klingende Münze verschlingt, daß die Franzosen noch weitere tausend Kabylen getötet haben, weil das Getreide in Afrika gut gedeiht und weil ein beständiger Krieg sehr nützlich für die Ausbildung von Heeren ist, daß der türkische Gesandte in Neapel kein Jude sein darf und daß der Kaiser Napoleon zu Fuß in Plombières spazierengeht und dem Volk schriftlich versichert, daß er nur nach dem Willen des ganzen Volkes regiere, das sind alles Worte, die längst Bekanntes verbergen oder offenbaren; aber das am 7. Juli in Luzern stattgefundene Ereignis scheint mir vollkommen neu und merkwürdig zu sein und bezieht sicht nicht auf die ewigen schlechten Seiten der menschlichen Natur, sondern auf eine gewisse Epoche der Entwicklung in unserer Gesellschaft. Das ist keine Tatsache für die Geschichte menschlicher Taten, sondern für die Geschichte des Fortschritts und der Zivilisation.</text>
+            <source>
+                <title>Aus den Aufzeichnungen des Fürsten D. Nechljudow. Luzern, zit. n. Frühe Erzählungen</title>
+                <idref>2963</idref>
+                <page>497-498</page>
+                <translator>Stellzig, Marie</translator>
+            </source>
+        </version>
+      <author>Tolstoj, Lev Nikolaevič</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="ru-RU" public-domain="1999">
+            <text>Пьера в первый раз поразило на этом собрании то бесконечное разнообразие умов человеческих, которое делает то, что никакая истина одинаково не представляется двум людям.</text>
+            <source>
+                <title>Полное собрание художественных произведений, Tom 5</title>
+                <page>151</page>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="2010">
+            <text>At that meeting he was struck for the first time by the endless variety of men's minds, which prevents a truth from ever presenting itself identically in two persons.</text>
+            <source>
+                <title>War and Peace</title>
+                <page>463</page>
+                <translator>Maude, Louise</translator>
+                <translator>Maude, Aylmer</translator>
+            </source>
+        </version>
+      <author>Tolstoj, Lev Nikolaevič</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="fr-FR" public-domain="2016">
+            <text>J'ai beau faire, tout m'intéresse.</text>
+            <source>
+                <title>Cahiers I</title>
+                <page>21</page>
+            </source>
+        </version>
+      <author>Valéry, Paul</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="fr-FR" public-domain="2016">
+            <text>Si vous avez mal au ventre, que vous soyez le roi ou l'homme qui balaie la rue, ou tel grand poète ou savant ou bien un individu sans valeur — vous n'êtes alors qu'un ventre qui souffre. Et de même, dans la jouissance ‒ êtes-vous identiques. Et de même dans le sommeil profond. Les différences se manifestent dans les phases tempérées de la sensibilité — loin des pôles et de l'équateur.</text>
+            <source>
+                <title>Cahiers, PL II</title>
+                <page>1442</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="en-DE" public-domain="2016">
+            <text>If you've got stomach-ache, be you king or scavenger, great poet, scholar or an insignificant individual ‒ you're then nothing but a stomach that suffers. Also you're identical in your pleasure. And also in tight sleep. Th differences only become manifest in the temperate zones of sensibility ‒ far from the poles and the equator.</text>
+            <source>
+                <title>Notebooks</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Valéry, Paul</author>
+   </quote>
+   <quote genre="diary">
+      <version status="original" lang="fr-FR" public-domain="2016">
+            <text>Rien de plus sot que de parler des leçons de l'histoire. L'histoire ne n[ou]s apprend que les historiens, s'ils ont du style, de l'esprit etc. Il faut sourire de ceux qui se prennent au sérieux.</text>
+            <source>
+                <title>Cahiers 1894-1914</title>
+                <page>214</page>
+            </source>
+        </version>
+      <author>Valéry, Paul</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="fr-FR" public-domain="1976">
+            <text>Et vous vous étonnez, monsieur le professur, qu'ayant mis le pied sur une des terres de ce globe, vous y trouviez des sauvages? Des sauvages, où n'yy en a-t-il pas?</text>
+            <source>
+                <title>20000 lieues sous les mers</title>
+            </source>
+        </version>
+      <version status="translation" lang="de-DE" public-domain="1976">
+            <text>Und Sie wundern sich, Herr Professor, daß Sie, sowie Sie einen Fuß an's Land setzen, Wilde darauf antreffen? Wo giebt's denn nicht Wilde?</text>
+            <source>
+                <title>Zwanzigtausend Meilen unter dem Meer</title>
+                <translator>Anonymus</translator>
+            </source>
+        </version>
+      <version status="translation" lang="en-US" public-domain="1976">
+            <text>So you are astonished, Professor, at having set foot on a strange land and finding savages? Savages! where are there not any?</text>
+            <source>
+                <title>Twentythousand leagues under the sea</title>
+                <translator>Anonymus</translator>
+            </source>
+        </version>
+      <author>Verne, Jules</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="translation" lang="de-DE" public-domain="1976">
+            <text>Nicht die Schnelligkeit ist zu gering, sondern das Meer ist zu groß!</text>
+            <source>
+                <title>Reise zum Mittelpunkt der Erde</title>
+                <translator>N.N.</translator>
+            </source>
+        </version>
+      <author>Verne, Jules</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="fr-FR" public-domain="1867">
+           <text>L'atrocité de cette aventure me saisit d'horreur et de colère. Je me repens bien de m'être ruiné à bâtir et à faire du bien dans la lisière d'un pays où l'on commet de sang froid, et en allant dîner, des barbaries qui feraient frémir des Sauvages ivres. Et c'est là ce peuple si doux, si léger, et si gai. Arlequins anthropophages! je ne veux plus entendre parler de vous. [...] je ne veux pas respirer le même air que vous.</text>
+           <source>
+               <title>Lettre à A. M. le comte d'Argental, aux eaux de Rolle 16 juillet</title>
+           </source>
+       </version>
+      <version status="unpublished" lang="en-DE" public-domain="1867">
+            <text>The atrocity of this adventure grips me with horror and anger. I am sorry to have ruined myself by building and doing good in the outskirts of a cold-blooded country, and by going to dine with barbarians, who would make drunken savages quiver. And it is this people so gentle, so light and gay. Cannibal clowns! I do not want to hear about you anymore. […] I do not want to breath the same air as you anymore.</text>
+            <source>
+                <title>Letter to the Count Charles-Augustin de Ferriol d’Argental, July 16th, 1766</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Voltaire</author>
+   </quote>
+   <quote genre="poetry">
+      <version status="original" lang="ru-RU" public-domain="1996">
+            <text>было мрачно и тёмно
+было страшно и окно.</text>
+            <source>
+                <title>Jurij Lotman: Struktur literarischer Texte, S. 140</title>
+                <idref>1897</idref>
+                <page>140</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="de-DE" public-domain="1996">
+            <text>Es war dunkel und finster,
+es war fürchterlich und Fenster.</text>
+            <source>
+                <title>zit. n. Jurij Lotman: Struktur literarischer Texte, S. 140</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Vvedenskij, Aleksandr</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="de-AT" public-domain="2013">
+            <text>Dankbarkeit, man spürt sie ja so selten bei Menschen, und gerade die Dankbarsten finden nicht den Ausdruck dafür, sie schweigen verwirrt, sie schämen sich und tun manchmal stockig, um ihr Gefühl zu verbergen.</text>
+            <source>
+                <title>Vierundzwanzig Stunden aus dem Leben einer Frau</title>
+            </source>
+        </version>
+      <author>Zweig, Stefan</author>
+   </quote>
+   <quote genre="letters">
+      <version status="original" lang="de-AT" public-domain="2013">
+            <text>Ich habe mich seit Jahren gezwungen, (auch oft gegen mein Gefühl) keine Gemeinsamkeiten als moralische Werte anzuerkennen. Es gibt keine Gerechtigkeit, keine Freiheit, keinen Mut bei einem Volke und bei dem andern nichts: ich kenne nur liebe Menschen (so Richard Dehmel und wenn er mir auch das Tintenfass an den Kopf wirft, ich werde nie aufhören auch seinen Zorn zu ehren), ich liebe die Sprachen und ihren vielfältigen Geist, aber ich sehe in den Staaten nur zufällige Formen.</text>
+            <source>
+                <title>Brief an Richard Dehmel, o.D. (vermutlich 12. Juli 1919)</title>
+            </source>
+        </version>
+      <author>Zweig, Stefan</author>
+   </quote>
+   <quote genre="drama">
+      <version status="original" lang="cs-CZ" public-domain="2016">
+            <text>Pravda je, co je odhlasováno! Stačí prostá většina, aby se cokoliv stali pravdou.</text>
+            <source>
+                <title>Adam Stvořitel</title>
+                <idref>3727</idref>
+                <page>131</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="de-DE" public-domain="2016">
+            <text>Die Wahrheit ist das, was abgestimmt wurde. Es genügt eine einfache Mehrheit, um alles beliebige zur Wahrheit werden zu lassen.</text>
+            <source>
+                <title>Adam der Schöpfer</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>Čapek, Josef</author>
+      <author>Čapek, Karel</author>
+   </quote>
+   <quote genre="drama">
+      <version status="original" lang="cs-CZ" public-domain="2016">
+            <text>Jakmile začneš tvořit, dopadne to docela jinak, než jak sis představoval. Říkám ti, to nejlepší je vymýšlet a psát, jak by měl svět vypadat. Já už jsme si napsal návrhy na pět různých svetů; každý z nich je báječný, jenomže teď nevím, který by byl ten nejlepší a do kterého se dát...</text>
+            <source>
+                <title>Adam Stvořitel</title>
+                <idref>3727</idref>
+                <page>92</page>
+            </source>
+        </version>
+      <author>Čapek, Josef</author>
+      <author>Čapek, Karel</author>
+   </quote>
+   <quote genre="drama">
+      <version status="original" lang="cs-CZ" public-domain="2016">
+            <text>Toho dne, kdy bylo vykonáno dílo stvoření, vypukla válka.</text>
+            <source>
+                <title>Adam Stvořitel</title>
+                <idref>3727</idref>
+                <page>111</page>
+            </source>
+        </version>
+      <author>Čapek, Josef</author>
+      <author>Čapek, Karel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="cs-CZ" public-domain="2009">
+            <text>Na nový rok 1943 pan G. H. Bondy, prezident závodů MEAS, četl noviny jako kdykoliv jindy; přeskočil poněkud neuctivě zprávy z bojiště, vyhnul se kabinetní krizi a vyplul plnými plachtami (‒ protože Lidové noviny dávno již zpětinásobily svůj formát, stačily by tyto plachty i na zámořskou plavbu ‒) do rubriky Národního hospodáře. Zde křižoval řádnou chvíli, načež svinul plachty a nechal se kolébat sněním.</text>
+            <source>
+                <title>Továrna na absolutno</title>
+            </source>
+        </version>
+      <author>Čapek, Karel</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="zh-CN" public-domain="1867">
+            <text>世有五谷，尽能济饥，为何吃人度日？</text>
+            <source>
+                <title>西游记</title>
+                <idref>3237</idref>
+                <page>88</page>
+            </source>
+        </version>
+      <version status="unpublished" lang="de-DE" public-domain="1867">
+            <text>In der Welt gibt es fünf Arten von Getreide, die ausreichen, um satt zu machen. Warum dann Menschen essen, um zu überleben?</text>
+            <source>
+                <title>Die Reise nach Westen</title>
+                <translator>Weber, Kai</translator>
+            </source>
+        </version>
+      <author>吴承恩</author>
+   </quote>
+   <quote genre="fiction">
+      <version status="original" lang="zh-CN" public-domain="1867">
+            <text>且今上启天地生物之大德，垂古今未有之旷恩，虽肝脑涂地，臣子岂能得报于万一！</text>
+            <source>
+                <title>红楼梦</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-GB" public-domain="1970">
+            <text>Moreover, the present emperor, bearing in mind the great bounty shewn by heaven and earth in promoting a ceaseless succession, has vouchsafed a more generous act of grace than has ever been displayed from old days to the present. And although we may besmear our liver and brain in the mire, how could we show our gratitude, even to so slight a degree as one ten-thousandth part.</text>
+            <source>
+                <title>The Dream of the Red Chamber</title>
+                <translator>Joly, Henry Bencraft</translator>
+            </source>
+        </version>
+      <author>曹雪芹 (Cao Xueqin)</author>
+   </quote>
+</quotes>

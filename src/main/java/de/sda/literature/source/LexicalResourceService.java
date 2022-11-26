@@ -6,6 +6,7 @@ import java.util.Map;
 
 import javax.xml.transform.stream.StreamSource;
 
+import org.springframework.core.io.Resource;
 import org.springframework.oxm.Unmarshaller;
 
 import de.sda.nlp.analyze.Wordnet;
@@ -17,16 +18,16 @@ import de.sda.quotes.model.LexicalResource.Lexicon.Synset;
 
 public class LexicalResourceService {
 
-private Unmarshaller unmarshaller;
+	private Unmarshaller unmarshaller;
 	
     public void setUnmarshaller(Unmarshaller unmarshaller) {
         this.unmarshaller = unmarshaller;
     }
     
-    public Wordnet loadLexicon(String quotesFilePath) {
+    public Wordnet loadLexicon(Resource lexicalResource) {
     	LexicalResource resource = new LexicalResource();
     	
-    	try(InputStream is = this.getClass().getClassLoader().getResourceAsStream(quotesFilePath)) {
+    	try(InputStream is = lexicalResource.getInputStream()) {
     		resource = (LexicalResource) this.unmarshaller.unmarshal(new StreamSource(is));
     	} catch (Exception exc) {
     		exc.printStackTrace();

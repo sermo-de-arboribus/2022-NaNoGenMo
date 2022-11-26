@@ -4,6 +4,7 @@ import java.io.InputStream;
 
 import javax.xml.transform.stream.StreamSource;
 
+import org.springframework.context.ApplicationContext;
 import org.springframework.oxm.Unmarshaller;
 
 import de.sda.quotes.model.Quotes;
@@ -16,10 +17,10 @@ public class QuotesService {
         this.unmarshaller = unmarshaller;
     }
     
-    public Quotes readQuotes(String quotesFilePath) {
+    public Quotes readQuotes(String quotesFilePath, ApplicationContext appContext) {
     	Quotes result = new Quotes();
     	
-    	try(InputStream is = this.getClass().getClassLoader().getResourceAsStream(quotesFilePath)) {
+    	try(InputStream is = appContext.getResource(quotesFilePath).getInputStream()) {
     		result = (Quotes) this.unmarshaller.unmarshal(new StreamSource(is));
     	} catch (Exception exc) {
     		System.err.println(exc.getLocalizedMessage());

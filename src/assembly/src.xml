@@ -1,0 +1,30 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.1 https://maven.apache.org/xsd/assembly-2.1.1.xsd">
+  
+  <id>NaNoGenMo2022-dist</id>
+  <baseDirectory>NaNoGenMo2022</baseDirectory>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <fileSets>
+    <fileSet>
+      <directory>${basedir}/config</directory>
+      <outputDirectory>config</outputDirectory>
+      <includes>
+        <include>*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <directory>${basedir}/config/wordnets</directory>
+      <outputDirectory>config/wordnets</outputDirectory>
+      <includes>
+        <include>*.xml</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <dependencySets>
+  	<dependencySet>
+  		<outputDirectory>lib</outputDirectory>
+  	</dependencySet>
+  </dependencySets>
+</assembly>
