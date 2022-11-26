@@ -28,39 +28,52 @@ public class LexicalResourceService {
     }
     
     public Wordnet loadLexicon(Resource lexicalResource) {
-    	LexicalResource resource = new LexicalResource();
     	
-    	try(InputStream is = lexicalResource.getInputStream()) {
-    		resource = (LexicalResource) this.unmarshaller.unmarshal(new StreamSource(is));
-    	} catch (Exception exc) {
-    		exc.printStackTrace();
-    		logger.error(exc.getLocalizedMessage());
-    	}
-    	
+    	LexicalResource resource = unmarshalResource(lexicalResource);
     	Map<String, LexicalEntry> lexicalEntryMap = new HashMap<String, LexicalEntry>();
     	Map<String, Synset> synsetMap = new HashMap<String, Synset>();
     	
     	for(Lexicon lexicon : resource.getLexicons()) {
-    		
-    		for(Synset synset : lexicon.getSynsets()) {
-    			String id = synset.getId();
-    			synsetMap.put(id, synset);
-    		}
-    		
-    		for(LexicalEntry entry : lexicon.getLexicalEntries()) {
-    			String lemma = entry.getLemma().getWrittenForm();
-    			lexicalEntryMap.put(lemma, entry);
-    			
-    			for(Sense sense : entry.getSenses()) {
-    				String synsetId = ((Synset)sense.getSynset()).getId();
-    				Synset synset = synsetMap.get(synsetId);
-    				if(null != synset) {
-    					synset.getMembers().add(entry);
-    				}    				
-    			}
-    		}
+    		populateSynsetMap(synsetMap, lexicon);
+    		populateLexicalEntryMap(lexicalEntryMap, synsetMap, lexicon);
     	}
     	
     	return new Wordnet(lexicalEntryMap, synsetMap); 
     }
+
+	private void populateLexicalEntryMap(Map<String, LexicalEntry> lexicalEntryMap, Map<String, Synset> synsetMap,
+			Lexicon lexicon) {
+
+		for(LexicalEntry entry : lexicon.getLexicalEntries()) {
+			String lemma = entry.getLemma().getWrittenForm();
+			lexicalEntryMap.put(lemma, entry);
+			
+			for(Sense sense : entry.getSenses()) {
+				String synsetId = ((Synset)sense.getSynset()).getId();
+				Synset synset = synsetMap.get(synsetId);
+				if(null != synset) {
+					synset.getMembers().add(entry);
+				}    				
+			}
+		}
+	}
+
+	private void populateSynsetMap(Map<String, Synset> synsetMap, Lexicon lexicon) {
+		for(Synset synset : lexicon.getSynsets()) {
+			String id = synset.getId();
+			synsetMap.put(id, synset);
+		}
+	}
+
+	private LexicalResource unmarshalResource(Resource lexicalResource) {
+    	LexicalResource resource = new LexicalResource();
+    	
+		try(InputStream is = lexicalResource.getInputStream()) {
+    		resource = (LexicalResource) this.unmarshaller.unmarshal(new StreamSource(is));
+    	} catch (Exception exc) {
+    		logger.error(exc.getLocalizedMessage(), exc);
+    	}
+		
+		return resource;
+	}
 }

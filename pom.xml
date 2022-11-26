@@ -46,7 +46,7 @@
 						<xjbSource>src/main/resources/global.xjb</xjbSource>
 					</xjbSources>
 					<sources>
-						<source>src/main/resources/quotes-schema.xsd</source>
+						<source>config/quotes-schema.xsd</source>
 						<source>src/main/resources/wordnets/wordnets-schema.xsd</source>
 					</sources>
 					<outputDirectory>${basedir}/src/main/java</outputDirectory>

@@ -17,6 +17,7 @@ import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 
+import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS;
 import de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 import org.dkpro.core.matetools.MateMorphTagger;
@@ -109,7 +110,7 @@ public class LinguisticAnalyzer {
 	private AnalyzedToken dkproTokenToAnalyzedToken(Token token) {
 		AnalyzedToken at = new AnalyzedToken(token.getCoveredText());
 		at.setLemma(token.getLemmaValue());
-		at.setPartOfSpeech(token.getPosValue());
+		at.setPartOfSpeech(determinePartOfSpeech(token));
 		String morphAnalysisResult = token.getMorph().getValue();
 		String[] featureStrings = morphAnalysisResult.split("\\|");
 		Map<String, String> structuredFeatures = new HashMap<String, String>();
@@ -122,6 +123,19 @@ public class LinguisticAnalyzer {
 		}
 		at.setMorphologicalFeatures(structuredFeatures);
 		return at;
+	}
+
+	private String determinePartOfSpeech(Token token) {
+		POS pos = token.getPos();
+		String posValue = pos.getPosValue();
+		String coarseValue = pos.getCoarseValue();
+		
+		switch(coarseValue) {
+			case "PUNCT":
+				return "PUNCT";
+			default:
+				return posValue;
+		}
 	}
 
 	public String getLemmatizerClassName() {

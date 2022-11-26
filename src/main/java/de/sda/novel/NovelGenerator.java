@@ -78,6 +78,11 @@ public class NovelGenerator implements LiteratureGenerator {
 			NlpAnnotatedQuote aq = annotatedQuotes.get(index);
 			writer.write(aq.getEffectiveText(wordnet, nameService));
 			numberOfWordsUsed += aq.getNumberOfWords();
+			
+			// add paragraph mark at random
+			if(random.nextFloat() < 0.2) {
+				writer.write(System.lineSeparator());
+			}
 		}
 		
 		writer.close();

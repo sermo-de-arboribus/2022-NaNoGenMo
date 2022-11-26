@@ -6,7 +6,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Locale;
 import java.util.Random;
-import java.util.regex.Pattern;
 
 import org.apache.uima.UIMAException;
 import org.slf4j.Logger;
@@ -75,9 +74,7 @@ public class NlpAnnotatedQuote {
 						}
 					}
 					else if(pos != "NN") {
-						boolean posContainsDollar = pos.startsWith("$");
-						boolean posContainsPunctuation = Pattern.matches("[,;.:]", pos);
-						if(!posContainsDollar && !posContainsPunctuation) {
+						if(tok.isOffsetByBlank()) {
 							sb.append(" ");
 						}
 						sb.append(tok.getSurfaceForm());
