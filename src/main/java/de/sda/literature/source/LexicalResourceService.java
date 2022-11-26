@@ -6,6 +6,8 @@ import java.util.Map;
 
 import javax.xml.transform.stream.StreamSource;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.io.Resource;
 import org.springframework.oxm.Unmarshaller;
 
@@ -18,6 +20,7 @@ import de.sda.quotes.model.LexicalResource.Lexicon.Synset;
 
 public class LexicalResourceService {
 
+    private Logger logger = LoggerFactory.getLogger(LexicalResourceService.class);
 	private Unmarshaller unmarshaller;
 	
     public void setUnmarshaller(Unmarshaller unmarshaller) {
@@ -31,7 +34,7 @@ public class LexicalResourceService {
     		resource = (LexicalResource) this.unmarshaller.unmarshal(new StreamSource(is));
     	} catch (Exception exc) {
     		exc.printStackTrace();
-    		System.err.println(exc.getLocalizedMessage());
+    		logger.error(exc.getLocalizedMessage());
     	}
     	
     	Map<String, LexicalEntry> lexicalEntryMap = new HashMap<String, LexicalEntry>();

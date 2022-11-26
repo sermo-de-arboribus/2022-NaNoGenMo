@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.apache.uima.UIMAException;
+import org.apache.uima.analysis_component.AnalysisComponent;
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.util.JCasUtil;
@@ -18,7 +19,6 @@ import org.apache.uima.resource.ResourceInitializationException;
 
 import de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
-import de.tudarmstadt.ukp.dkpro.core.languagetool.LanguageToolLemmatizer;
 import org.dkpro.core.matetools.MateMorphTagger;
 
 import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpNamedEntityRecognizer;
@@ -28,20 +28,23 @@ import de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter;
 public class LinguisticAnalyzer {
 
 	private JCas jcas;
+	private String lemmatizerClassName;
 	
 	// reusable analysis engines
-	AnalysisEngine lemmatizer;
-	AnalysisEngine morphTagger;
-	AnalysisEngine posTagger;
-	AnalysisEngine segmenter;
-	AnalysisEngine personEntityRecognizer;
-	AnalysisEngine locationEntityRecognizer;
-	AnalysisEngine nemgpEntityRecognizer;
+	private AnalysisEngine lemmatizer;
+	private AnalysisEngine morphTagger;
+	private AnalysisEngine posTagger;
+	private AnalysisEngine segmenter;
+	private AnalysisEngine personEntityRecognizer;
+	private AnalysisEngine locationEntityRecognizer;
+	private AnalysisEngine nemgpEntityRecognizer;
 	
-	public LinguisticAnalyzer() {
+	public LinguisticAnalyzer(String lemmatizerClassName) throws ClassNotFoundException {
+		this.lemmatizerClassName = lemmatizerClassName;
+		
 		try {
 			this.jcas = createJCas();
-			this.lemmatizer = AnalysisEngineFactory.createEngine(LanguageToolLemmatizer.class);
+			this.lemmatizer = AnalysisEngineFactory.createEngine((Class<? extends AnalysisComponent>)Class.forName(lemmatizerClassName));
 			this.morphTagger = AnalysisEngineFactory.createEngine(MateMorphTagger.class, MateMorphTagger.PARAM_LANGUAGE, "de");
 			this.personEntityRecognizer = AnalysisEngineFactory.createEngine(OpenNlpNamedEntityRecognizer.class, OpenNlpNamedEntityRecognizer.PARAM_VARIANT, "person");
 			this.locationEntityRecognizer = AnalysisEngineFactory.createEngine(OpenNlpNamedEntityRecognizer.class, OpenNlpNamedEntityRecognizer.PARAM_VARIANT, "location");
@@ -79,6 +82,10 @@ public class LinguisticAnalyzer {
 		return result;
 	}
 
+	public void setLemmatizer(AnalysisEngine lemmatizer) {
+		this.lemmatizer = lemmatizer;
+	}
+	
 	private void addNamedEntitiesInfo(AnalyzedToken at, Token token, Collection<NamedEntity> namedEntities) {
 		int tokenBeginIndex = token.getBegin();
 		int tokenEndIndex = token.getEnd();
@@ -115,5 +122,13 @@ public class LinguisticAnalyzer {
 		}
 		at.setMorphologicalFeatures(structuredFeatures);
 		return at;
+	}
+
+	public String getLemmatizerClassName() {
+		return lemmatizerClassName;
+	}
+
+	public void setLemmatizerClassName(String lemmatizerClassName) {
+		this.lemmatizerClassName = lemmatizerClassName;
 	}
 }

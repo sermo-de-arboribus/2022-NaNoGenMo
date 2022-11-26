@@ -9,6 +9,8 @@ import java.util.Random;
 import java.util.regex.Pattern;
 
 import org.apache.uima.UIMAException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import de.sda.nlp.analyze.AnalyzedToken;
 import de.sda.nlp.analyze.LinguisticAnalyzer;
@@ -24,10 +26,11 @@ import de.sda.quotes.model.Version;
 
 public class NlpAnnotatedQuote {
 	
-	private LinguisticAnalyzer analyzer = new LinguisticAnalyzer();
+	private LinguisticAnalyzer analyzer;
 	private Locale language;
 	private Version effectiveVersion;
 	private String effectiveText;
+	private Logger logger = LoggerFactory.getLogger(NlpAnnotatedQuote.class);
 	private long numberOfWords = -1L;
 	private Random random = new Random();
 	private Collection<AnalyzedToken> tokens;
@@ -96,7 +99,7 @@ public class NlpAnnotatedQuote {
 							sb.append(" ");	
 							sb.append(entry.getLemma().getWrittenForm());
 						} catch (NullPointerException exc) {
-							System.err.println("Exception occurred when trying to get lexical entry for word " 
+							logger.error("Exception occurred when trying to get lexical entry for word " 
 									+ tok.getSurfaceForm() + " (lemma " + tok.getLemma() + ")");
 							sb.append(" ");
 							sb.append(tok.getSurfaceForm());

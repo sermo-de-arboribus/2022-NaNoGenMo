@@ -5,12 +5,10 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="lexicalResourceService" class="de.sda.literature.source.LexicalResourceService">
-		<property name="unmarshaller" ref="jaxb2Marshaller"/>
-	</bean>
-	
-	<bean id="linguisticAnalyzer" class="de.sda.nlp.analyze.LinguisticAnalyzer"></bean>
-		<bean id="jaxb2Marshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+	<bean name="analysisEngineFactory" class="org.apache.uima.fit.factory.AnalysisEngineFactory"/>
+
+	<!-- Configure the jaxb2Marshaller that generates java classes out of XSD schema files -->
+	<bean id="jaxb2Marshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
 		<property name="classesToBeBound">
 			<list>
 				<value>de.sda.quotes.model.Quotes</value>
@@ -21,6 +19,16 @@
 				<value>de.sda.quotes.model.LexicalResource</value>
 			</list>
 		</property>
+	</bean>
+	
+	<!-- Configure the lexical resource service that is used for looking up replacements for nouns -->
+	<bean id="lexicalResourceService" class="de.sda.literature.source.LexicalResourceService">
+		<property name="unmarshaller" ref="jaxb2Marshaller"/>
+	</bean>
+	
+	<!-- Configure the linguistic Analyzer chain to be used during quotes analysis -->
+	<bean id="linguisticAnalyzer" class="de.sda.nlp.analyze.LinguisticAnalyzer">
+		<constructor-arg index="0" value="de.tudarmstadt.ukp.dkpro.core.languagetool.LanguageToolLemmatizer"/>
 	</bean>
 	
 	<bean id="nameReplacementService" class="de.sda.novel.NameReplacementServiceImpl">
