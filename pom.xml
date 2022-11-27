@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.sermo-de-arboribus</groupId>
 	<artifactId>NaNoGenMo2022</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>National Novel Generation Month 2022</name>
 	<description>Participation project in 2022's National Novel Generation Month</description>
 	<packaging>jar</packaging>
