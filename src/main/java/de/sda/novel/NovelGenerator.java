@@ -5,6 +5,7 @@ import de.sda.literature.source.LexicalResourceService;
 import de.sda.literature.source.QuotesService;
 import de.sda.nlp.analyze.LinguisticAnalyzer;
 import de.sda.nlp.analyze.Wordnet;
+import de.sda.quotes.AnnotatedQuoteFactory;
 import de.sda.quotes.NlpAnnotatedQuote;
 import de.sda.quotes.model.Quote;
 import de.sda.quotes.model.Quotes;
@@ -26,7 +27,7 @@ import org.springframework.core.io.Resource;
 
 public class NovelGenerator implements LiteratureGenerator {
 
-	private static final int MINIMUM_SIZE_IN_WORDS = 50000;
+	private static final int MINIMUM_SIZE_IN_WORDS = 50200;
 	
 	private LinguisticAnalyzer analyzer;
 	private Locale languageToBeUsed;
@@ -66,7 +67,7 @@ public class NovelGenerator implements LiteratureGenerator {
 		
 		List<NlpAnnotatedQuote> annotatedQuotes = quotes.getQuotes()
 			.stream()
-			.map((quote) -> new NlpAnnotatedQuote(quote, this.languageToBeUsed, this.analyzer))
+			.map((quote) -> AnnotatedQuoteFactory.getInstanceForLanguage(this.languageToBeUsed, quote, this.analyzer))
 			.collect(Collectors.toList());
 		
 		Random random = new Random();

@@ -1,17 +1,22 @@
 package de.sda.nlp.analyze;
 
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
 public class AnalyzedToken {
 
+	private static List<String> APOSTROPHIZED_WORD_COMPONENTS = List.of("'nt", "'s", "'ve");
+	
+	private String language;
 	private String lemma;
 	private Map<String, String> morphologicalFeatures;
 	private NamedEntityToken namedEntity;
 	private String partOfSpeech;
 	private String surfaceForm;
 	
-	public AnalyzedToken(String surfaceForm) {
+	public AnalyzedToken(String surfaceForm, String language) {
+		this.language = language;
 		this.surfaceForm = surfaceForm;
 	}
 	
@@ -29,6 +34,10 @@ public class AnalyzedToken {
 		} else {
 			return "";
 		}
+	}
+	
+	public String getLanguage() {
+		return language;
 	}
 	
 	public String getLemma() {
@@ -51,14 +60,30 @@ public class AnalyzedToken {
 		return surfaceForm;
 	}
 
+	public boolean isIndefiniteArticle() {
+		if(this.partOfSpeech.equals("DT") 
+				&& morphologicalFeatures.containsKey("definiteness")
+				&& morphologicalFeatures.get("definiteness").equals("indefinite")) {
+			return true;
+		} else {
+			return false;			
+		}
+	}
+	
 	public boolean isOffsetByBlank() {
-		return !(this.isPunctuation() || lemma.equals("n't")); 
+		return !(this.isPunctuation() || APOSTROPHIZED_WORD_COMPONENTS.contains(lemma)); 
 	}
 	
 	public boolean isPunctuation() {
 		return this.partOfSpeech.startsWith("$")
 			|| Pattern.matches("[,;.:]", this.partOfSpeech)
 			|| this.partOfSpeech.equals("PUNCT");
+	}
+	
+	public void resetLemmaAndSurfaceForm(String lemma) {
+		// TODO: We might do something more sophisticated here, like generating plural forms of singular form lemmata 
+		this.surfaceForm = lemma;
+		this.lemma = lemma;
 	}
 	
 	public void setMorphologicalFeatures(Map<String, String> morphologicalFeatures) {
@@ -75,5 +100,9 @@ public class AnalyzedToken {
 	
 	public void setPartOfSpeech(String partOfSpeech) {
 		this.partOfSpeech = partOfSpeech;
+	}
+	
+	public void setSurfaceForm(String surfaceForm) {
+		this.surfaceForm = surfaceForm;
 	}
 }

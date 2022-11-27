@@ -42,6 +42,6 @@ The novel generator only uses the `@genre` abd `@lang` attributes and certainly 
 
 ## Wordnets
 
-For every output language that you want to produce, you need to provide a Wordnet XML file in the "Lexical Markup Framework compatible" format (cf. https://globalwordnet.github.io/schemas/)
+For every output language that you want to produce, you need to provide a Wordnet XML file in the "Lexical Markup Framework compatible" format (cf. https://globalwordnet.github.io/schemas/ and http://www.lexicalmarkupframework.org/lmf/iwic125.pdf)
 An open source English Wordnet in the required format is available from https://github.com/globalwordnet/english-wordnet, a German one from https://github.com/hdaSprachtechnologie/odenet. For memory efficiency reasons you can consider to filter these large XML files to only contain entries for nouns, as this 2022-NaNoGenMo novel generator only works on replacements for nouns currently. An XSL file for running this filtering can be found under src/main/resources/wordnets/filter-nouns-of-wordnet.xsl.
 Place your wordnet file in the subdirectory ./config/wordnets of your program folder. Name the file with the ISO-639 language code that you use in your language option (see "Simple configuration options" above) plus the ".xml" extension.
