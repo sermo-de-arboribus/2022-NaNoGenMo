@@ -13,7 +13,6 @@ import de.sda.nlp.analyze.LinguisticAnalyzer;
 import de.sda.nlp.analyze.Wordnet;
 import de.sda.novel.NameReplacementService;
 import de.sda.quotes.model.Quote;
-import de.sda.quotes.model.Version;
 import de.sda.quotes.model.LexicalResource.Lexicon.LexicalEntry;
 import de.sda.quotes.model.LexicalResource.Lexicon.Synset;
 import de.sda.quotes.model.LexicalResource.Lexicon.LexicalEntry.Sense;
@@ -21,23 +20,13 @@ import de.sda.quotes.model.LexicalResource.Lexicon.Synset.SynsetRelation;
 
 public class AnnotatedEnglishQuote extends AbstractAnnotatedQuote {
 
-	private static List<Character> ENGLISH_VOWELS = List.of('A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u');
-	
-	private LinguisticAnalyzer analyzer;
-	private Version effectiveVersion;
-	private String effectiveText;
+	private static List<Character> ENGLISH_VOWELS = List.of('A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u');	
 	private long numberOfWords = -1L;
 	private List<AnalyzedToken> tokens;
 	
 	public AnnotatedEnglishQuote(final Quote sourceQuote, final LinguisticAnalyzer analyzer) {
 
-		this.analyzer = analyzer;
-		this.effectiveVersion = sourceQuote.getVersions()
-				.stream()
-				.filter((vers) -> "en".equals(vers.getLang().getLanguage()))
-				.findFirst()
-				.orElseThrow();
-		this.effectiveText = this.effectiveVersion.getText().getContent().get(0).toString();
+		super(sourceQuote, analyzer, "en");
 		
 		runAnalysis();
 	}

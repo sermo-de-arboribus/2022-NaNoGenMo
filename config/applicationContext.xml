@@ -92,7 +92,7 @@
 		<constructor-arg ref="quotesService"/>
 		<constructor-arg name="quoteFiles">
 			<array value-type="java.lang.String">
-				<!-- <value>config/copyrighted-quotes.xml</value>-->
+				<value>config/copyrighted-quotes.xml</value>
 				<value>config/public-domain-quotes.xml</value>
 			</array>
 		</constructor-arg>

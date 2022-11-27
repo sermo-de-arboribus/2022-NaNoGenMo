@@ -12,6 +12,8 @@ public class AnnotatedQuoteFactory {
 		final String language = locale.getLanguage();
 		
 		switch(language) {
+			case "de":
+				return new AnnotatedGermanQuote(sourceQuote, analyzer);
 			case "en":
 			default: 
 				return new AnnotatedEnglishQuote(sourceQuote, analyzer);
