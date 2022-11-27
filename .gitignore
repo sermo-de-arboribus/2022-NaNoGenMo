@@ -29,3 +29,4 @@ hs_err_pid*
 
 # prevent copyrighted material from being included in the repo
 /src/main/resources/copyrighted*.xml
+/config/copyrighted*.xml
