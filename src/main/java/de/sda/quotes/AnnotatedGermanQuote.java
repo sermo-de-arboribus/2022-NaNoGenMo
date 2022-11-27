@@ -3,6 +3,7 @@ package de.sda.quotes;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 import java.util.stream.Collectors;
 
 import org.apache.uima.UIMAException;
@@ -23,16 +24,53 @@ public class AnnotatedGermanQuote extends AbstractAnnotatedQuote implements NlpA
 		super(sourceQuote, analyzer, "de");		
 		runAnalysis();
 	}
+	
 	@Override
 	public String getEffectiveText(Wordnet wordnet, NameReplacementService nameService) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+		if(null == this.tokens) {
+			return this.effectiveText;	
+		} else {
+			Stack<AnalyzedToken> tokenStack  = new Stack<AnalyzedToken>();
+			
+			this.tokens.stream()
+				.forEach((AnalyzedToken tok) -> {
+					
+					String pos = tok.getPartOfSpeech();
+					if((pos.equals("NE") || pos.equals("NNP")) && null != tok.getNamedEntity()) {
+						
+						processNamedEntity(nameService, tokenStack, tok);
+					}
+					else if(pos != "NN") {
+						tokenStack.push(tok);
+					} else {
+						replaceNounWithRelatedWord(wordnet, tokenStack, tok);
+					}
+				});
+			
+			StringBuilder sb = new StringBuilder();
+			while(!tokenStack.empty()) {
+				AnalyzedToken token = tokenStack.pop();
+				sb.insert(0, token.getSurfaceForm());
 
+				if(token.isOffsetByBlank() && !tokenStack.empty()) {
+					sb.insert(0, " ");
+				}
+			}
+			sb.insert(0, " ");
+			return sb.toString();
+		}
+	}
+	
 	@Override
 	public long getNumberOfWords() {
-		// TODO Auto-generated method stub
-		return 0;
+		if(this.numberOfWords < 0) {
+			this.numberOfWords = this.tokens
+				.stream()
+				.filter((token) -> !token.isPunctuation())
+				.count();
+		}
+
+		return this.numberOfWords;
 	}
 	
 	
