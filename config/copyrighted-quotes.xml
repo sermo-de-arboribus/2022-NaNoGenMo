@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="quotes-schema.xsd">
+   <quote genre="fiction">
+      <version status="original" lang="jp-JP" public-domain="2064">
+            <text>孤独とは、幻を求めて満たされない</text>
+            <source>
+                <title>砂の女</title>
+            </source>
+        </version>
+      <version status="translation" lang="en-US" public-domain="2066">
+            <text>Loneliness was an unsatisfied thirst for illusion.</text>
+            <source>
+                <title>The Woman in the Dunes</title>
+                <idref>3</idref>
+                <translator>Saunders, E. Dale</translator>
+            </source>
+        </version>
+      <author>Abe Kōbō</author>
+   </quote>
+</quotes>
