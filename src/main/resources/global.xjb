@@ -6,7 +6,7 @@
     	<xjc:simple/>
 	</jaxb:globalBindings>
   
-	<jaxb:bindings schemaLocation="./quotes-schema.xsd">
+	<jaxb:bindings schemaLocation="../../../config/quotes-schema.xsd">
     	<jaxb:schemaBindings>
             <jaxb:package name="de.sda.quotes.model" />
         </jaxb:schemaBindings>

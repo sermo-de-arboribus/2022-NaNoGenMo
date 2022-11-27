@@ -16,7 +16,7 @@ To determine what words the algorithm could and should replace, an NLP pipeline 
 * enter the root directory and 
 * build the project with `mvn clean package`.
 * Take the .zip archive, whose name is starting with "NaNoGenMo2022", extract it to a location of your choice and navigate to this unzipped folder (called exactly "NaNoGenMo2022" - we'll refer to it as "the program folder" from now on).
-* Run the program with 
+* Run the program with `java -cp ./lib/*:. de.sda.novel.NovelGeneratorApplication` (on Linux / MacOS) or with `java -cp ./lib/*;. de.sda.novel.NovelGeneratorApplication` (on Windows).
 * If you didn't change the default configuration, your generated novel will be output to a file named "generated-novel.txt"
 
 # Configuration
@@ -30,6 +30,7 @@ In the program folder you'll find a sub-directory named "config". The main confi
 * The quotes in the source file may be classified by genre. If you want to exclude some genres from usage in the novel generator, you can adjust the list within the "genresToBeExcluded" option of the "novelGenerator" bean.
 * The language of every quote in the source file is marked by an ISO language code attribute, so a single quotes source file can have quotes in many different languages. The novel generator however assumes that you want to output a novel in a certain target language. The target language is configured in the "language" `constructor-arg` of the "targetLocale" bean.
 * All other configuration options in `applicationContext.xml` should only be touched if you are familiar with the Spring framework's bean configuration system. One advanced configuration option that you might want to touch is e. g. the "linguisticAnalyzer" bean definition, where you can select a different lemmatizer to be used in the NLP pipeline. If you change the lemmatizer class you should also remember to drop the .jar file for your requested lemmatizer into the `libs` directory.
+* The output filename of the generated novel can be set via "outputFilePath" on the "novelGenerator" bean.
 
 ## Source material files ("quote" files)
 In the project's config folder you'll see a file named `public-domain-quotes.xml` that you can use as a sample for how input files should be structured. You'll also find an XML Schema file `quotes-schema.xsd` in the same folder which you can use in a schema-aware XML editor for guided editing.
